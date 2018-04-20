@@ -174,7 +174,7 @@ node{
 
         ListOfSources.each
         {
-            if(it.name.trim().split("\\."))[0] == ScenarioTarget)
+            if(it.name.trim().split("\\.")[0] == ScenarioTarget)
             {
                 println "*************************"
                 println "Scenario " + Scenario
