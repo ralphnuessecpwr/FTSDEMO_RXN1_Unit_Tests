@@ -42,7 +42,7 @@ String XLR_User             = "xebialabs"               // XL Release user ID. C
 
 node{
     
-    def String PathIdx = ISPW_Src_Level.substring(ISPW_Src_Level.length - 1, ISPW_Src_Level.length)
+    def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length - 1)
     def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
     /*
     stage("Generate Programs")
