@@ -19,7 +19,6 @@ String CES_Token         = "665fc9fb-39de-428a-8a67-a3619752873d"
 String ISPW_Assignment      = "RXN1000003" //ContainerID of the assignment that you want to generate and promote
 String ISPW_ContainerType   = "assignments" //Valid values are assignments or releases
 String ISPW_RuntimeConfig   = "ISPW"
-String ISPW_Next_Level       = "QA1"
 
 // Directories for source and tests that are downloaded to the jenkins workspace
 String MF_Source_tmp        = "MF_Source" 
@@ -30,7 +29,6 @@ String TDir                 = ProjDir + "\\" + MF_Source_tmp
 String FDir                 = ProjDir + "\\" + MF_Source_final
 
 // TTT and COCO
-String TTT_Jcl              = "Runner_${ISPW_Src_Level}.jcl"
 String CC_repository        = "HDDRXM0.DEMO.COCO.REPOS"
 String CC_DDIO_Override     = "SALESSUP.${ISPW_Application}.${ISPW_Src_Level}.SSD"
 
@@ -43,6 +41,9 @@ String XLR_User             = "xebialabs"               // XL Release user ID. C
 //String XLR_Release          = "GENA Q2"
 
 node{
+    
+    def String PathIdx = ISPW_Src_Level.substring(ISPW_Src_Level.length - 1, ISPW_Src_Level.length)
+    def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
     /*
     stage("Generate Programs")
     {
