@@ -156,19 +156,11 @@ node{
 
     // findFiles requires the "Pipeline Utilities Plugin"
     // Get all testscenario files in the current workspace into a array of type File
-    def ScenarioList = findFiles(glob: '**/*.testscenario')
-    dir(FDir)
-    {
-        def SourcesList  = findFiles(glob: '**/*.cbl')
+    def ListOfScenarios = findFiles(glob: '**/*.testscenario')
 
-        println "Found Sources"
-        SourcesList.each
-        {
-            println it.name
-        }
-    }
-    
-    ScenarioList.each
+    def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source_tmp}/*.cbl")
+
+    ListOfScenarios.each
     {
         def ScenarioPath = it.path
         // Get root node of the path, i.e. the name of the TTT project
@@ -177,32 +169,38 @@ node{
         def ProjectName = it.path.trim().split("\\\\")[0] 
         def Scenario = it.name
         def ScenarioRoot = it.name.trim().split("\\.")[0]
+        def ScenarioTarget = ScenarioRoot.split("\\_")[0]
 
-        println "*************************"
-        println "Scenario " + Scenario
-        println "Path " + ScenarioPath
-        println "Project " + ProjectName
-    
-        stage("TTT Project ${ProjectName}, Scenario ${ScenarioRoot}")
+        ListOfSources.each
         {
-
-            step([$class: 'TotalTestBuilder', 
-                ccClearStats: false,
-                ccRepo: "${CC_repository}",
-                ccSystem: "${ISPW_Application}_${ProjectName}", 
-                ccTestId: "${BUILD_DISPLAY_NAME}",  //resolves to build number, i.e. #177 
-                credentialsId: "${Jenkins_Id}", 
-                deleteTemp: true, 
-                hlq: '', 
-                connectionId: "${HCI_Conn_ID}",
-                jcl: "${TTT_Jcl}", 
-                projectFolder: "${ProjectName}", 
-                testSuite: "${Scenario}", 
-                useStubs: true])
+            if(it.name.trim().split("\\."))[0] == ScenarioTarget)
+            {
+                println "*************************"
+                println "Scenario " + Scenario
+                println "Path " + ScenarioPath
+                println "Project " + ProjectName
             
-            // Process the Total Test result files into Jenkins
-            junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
+                stage("TTT Project ${ProjectName}, Scenario ${ScenarioRoot}")
+                {
 
+                    step([$class: 'TotalTestBuilder', 
+                        ccClearStats: false,
+                        ccRepo: "${CC_repository}",
+                        ccSystem: "${ISPW_Application}_${ProjectName}", 
+                        ccTestId: "${BUILD_DISPLAY_NAME}",  //resolves to build number, i.e. #177 
+                        credentialsId: "${Jenkins_Id}", 
+                        deleteTemp: true, 
+                        hlq: '', 
+                        connectionId: "${HCI_Conn_ID}",
+                        jcl: "${TTT_Jcl}", 
+                        projectFolder: "${ProjectName}", 
+                        testSuite: "${Scenario}", 
+                        useStubs: true])
+                    
+                    // Process the Total Test result files into Jenkins
+                    junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
+                }
+            }
         }
     }
 
@@ -229,9 +227,9 @@ node{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool 'Scanner';
 
-        //def ScenarioList = findFiles(glob: '**/*.testscenario')
+        //def ListOfScenarios = findFiles(glob: '**/*.testscenario')
 
-        ScenarioList.each
+        ListOfScenarios.each
         {
             def ScenarioPath = it.path
             // Get root node of the path, i.e. the name of the TTT project
