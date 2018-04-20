@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 13.04.2018 16:23:47-->
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" encoding="IBM-1047" id="Unit%20Test/Stubs/Dummy.stub" stubtype="Program" target="CWXTSUBC" token="10000">
+  <stub:description>Created: 13.04.2018 16:23:47</stub:description>
+  <stub:stubdata id="0" name="CWXTSUBC">
+    <stub:interface>../Interfaces/CWXTSUBC.interface#Unit%20Test/Interfaces/CWXTSUBC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">40</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string"></properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output0.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTSUBC_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUBC_SALES-AMOUNT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+        <properties:properties>
+          <properties:property name="value" type="string"></properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTSUBC_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="output0.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTSUBC_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUBC_COMM-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">00000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:structType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string"></properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTSUBC_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="output0.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+    </stub:output>
+  </stub:stubdata>
+</stub:stub>
