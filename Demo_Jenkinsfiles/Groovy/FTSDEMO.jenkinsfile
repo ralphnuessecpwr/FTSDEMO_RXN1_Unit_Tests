@@ -259,17 +259,17 @@ node{
             println "**********************************************************"
 
             // If the quality gate is anything other than Green, regress the promoted code
-            ISPWFunction        = " -ISPWFunction ContainerOperation"
-            ces                 = " -ces " + "${CES_Connection}"
-            runtimeconfig       = " -runtimeconfig ${ISPW_RuntimeConfig}"
-            containerType       = " -containerType ${ISPW_ContainerType}"
-            operation           = " -operation regress"
-            container           = " -container " + "${ISPW_Container}"
-            level               = " -level " + "${ISPW_Stg_Level}"
-            token               = " -token " + "${CES_Token}"
-            bat "powershell c:\\ISPW\\ISPW_Operations.ps1" + ISPWFunction + ces + runtimeconfig + containerType + operation + container + level + token
+            def ISPW_Assignment_Parm        = 'assignmentId=' + ISPW_Assignment
+            def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
+            def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
+            def ISPW_Remain_Parms           = '\nevents.name=Complete\nevents.body=Promoted\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
             
-            error "Exiting Pipeline"
+            def ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
+        
+            ispwOperation connectionId: HCI_Conn_ID, 
+                credentialsId: CES_Connection, 
+                ispwAction: 'PromoteAssignment', 
+                ispwRequestBody: ISPW_Parms
         }
         else
         {
