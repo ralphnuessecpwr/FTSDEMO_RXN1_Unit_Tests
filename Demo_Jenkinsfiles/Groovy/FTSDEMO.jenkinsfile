@@ -7,28 +7,31 @@ import groovy.json.JsonOutput
 import java.net.URL
 import groovy.io.FileType
 
-//Compuware Envirnoment to connect
-String CES_Connection     = "Hddrxm0CES"
-String HCI_Conn_ID        = "8e0838c8-4445-42c5-b6db-e352d4b2c64a"      
+//Compuware Envirnoment to connect, need to bee defined in Jenkins via Credentials Dialogs and Plugin Dialogs
+String CES_Connection    = "Hddrxm0CES"                            //Connection String to CES
+String HCI_Conn_ID       = "8e0838c8-4445-42c5-b6db-e352d4b2c64a"  //Connection String to HCI      
+String HCI_Token         = "dde8dbfc-7818-436d-8b4b-0101c9734285"   //Credentials for HCI
+String CES_Token         = "665fc9fb-39de-428a-8a67-a3619752873d"   //Credentials for CES
 
-// Jenkins credential ID and CES Personal Access token to be used for mainframe access
-String Jenkins_Id        = "dde8dbfc-7818-436d-8b4b-0101c9734285"      
-String CES_Token         = "665fc9fb-39de-428a-8a67-a3619752873d"
-
-// ISPW Levels and container to be used by the promote/deploy/generate/regress operations
-String ISPW_Assignment      = "RXN1000003" //ContainerID of the assignment that you want to generate and promote
+// ISPW Variables for promote/deploy/generate/regress operations
 String ISPW_ContainerType   = "assignments" //Valid values are assignments or releases
 String ISPW_RuntimeConfig   = "ISPW"
 
-String Git_Repo = "https://github.com/ralphnuessecpwr/${ISPW_Stream}_${ISPW_Application}_Unit_Tests.git"
+// Git Parameters
+String Git_User         = "ralphnuessecpwr"
+String Git_Credentials  = "87763671-db9a-47e1-80e7-33c1aba803b1"
+String Git_Repo         = "${ISPW_Stream}_${ISPW_Application}_Unit_Tests.git"
+String Git_URL          = "https://github.com/${Git_User}/${Git_Repo}"
+String Git_Branch       = "master"
 
 // Directories for source and tests that are downloaded to the jenkins workspace
-String MF_Source_tmp        = "MF_Source" 
-String MF_Source_final      = "MF_Source_final" 
+String MF_Source_tmp        = "MF_Source"           // The ISPW Plugin will download sources to the folder, this will contain only the currently promoted sources
+String MF_Source_final      = "MF_Source_final"     // This folder will contain all sources across several executions of the pipeline
+                                                    // This folder will be passed to the SonarQuba Scanner
 
-String ProjDir              = ".\\" + ISPW_Application
-String TDir                 = ProjDir + "\\" + MF_Source_tmp
-String FDir                 = ProjDir + "\\" + MF_Source_final
+String ProjDir              = ".\\" + ISPW_Application          // Root folder within workspace for the ISPW Application
+String TDir                 = ProjDir + "\\" + MF_Source_tmp    // Subfolder in the project folder for temporary sources (s.above)
+String FDir                 = ProjDir + "\\" + MF_Source_final  // Subfolder in the project folder for final sources (s.above)
 
 // TTT and COCO
 String CC_repository        = "HDDRXM0.DEMO.COCO.REPOS"
@@ -38,15 +41,18 @@ String CC_DDIO_Override     = "SALESSUP.${ISPW_Application}.${ISPW_Src_Level}.SS
 String SQ_Project           = "Ralph_Madrid"
 
 // XL Release template to trigger / XL Release user to connect with / The
-String XLR_Template         = "A Release from Jenkins" // XL Release template to invoke at the end of the Jenkins workflow
+String XLR_Template         = "A Release from Jenkins"  // XL Release template to invoke at the end of the Jenkins workflow
 String XLR_User             = "xebialabs"               // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
 //String XLR_Release          = "GENA Q2"
 
+// One node with several stages => All variables are local to the node and available to all stages
 node{
     
+    // Determine the last character of the ISPW level to identify the path within the life cycle
     def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
+    // Use the Path Index to determine the right Runner JCL to use (different STEPLIB concatenations)
     def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
-    /*
+/*
     stage("Generate Programs")
     {
         // Define variables to be used to call ISPW
@@ -70,36 +76,13 @@ node{
         token               = " -token " + "${CES_Token}"
         bat "powershell c:\\ISPW\\ISPW_Operations.ps1" + ISPWFunction + ces + runtimeconfig + containerType + operation + container + level + token
     }
+*/
 
-    stage("Promote code")
-    {
-        // Define variables to be used to call ISPW
-        def ISPWFunction        
-        def ces                 
-        def runtimeconfig       
-        def containerType       
-        def operation           
-        def container           
-        def level               
-        def token      
-
-        // Promote code for the container into a test level
-        ISPWFunction        = " -ISPWFunction ContainerOperation"
-        ces                 = " -ces " + "${CES_Connection}"
-        runtimeconfig       = " -runtimeconfig ${ISPW_RuntimeConfig}"
-        containerType       = " -containerType ${ISPW_ContainerType}"
-        operation           = " -operation promote"
-        container           = " -container " + "${ISPW_Container}"
-        level               = " -level " + "${ISPW_Src_Level}"
-        token               = " -token " + "${CES_Token}"
-        bat "powershell c:\\ISPW\\ISPW_Operations.ps1" + ISPWFunction + ces + runtimeconfig + containerType + operation + container + level + token
-    }
-    */
-
-    println "*************************"
+    println "******************************"
     println "Download Source Code from ISPW"
+    println "******************************"
 
-    // Delete the contents of the MF_Source Directory, so that only newly downloaded sources get handled
+    // Delete the contents of the MF_Source_tmp Directory, so that only newly downloaded sources get handled
     dir(TDir) 
     {
         deleteDir()
@@ -118,13 +101,13 @@ node{
         }        
     }
       
-    stage("Download Source Code from ISPW")
+    stage("Download Source Code")
     {
         checkout(changelog: false, poll: false, 
             scm: [$class: 'IspwConfiguration', 
                 componentType: 'COB, COPY', 
                 connectionId: "${HCI_Conn_ID}", 
-                credentialsId: "${Jenkins_Id}", 
+                credentialsId: "${HCI_Token}", 
                 folderName: '', 
                 levelOption: '0', 
                 serverApplication: "${ISPW_Application}", 
@@ -133,65 +116,72 @@ node{
                 serverStream: "${ISPW_Stream}"])
     }
 
-    println "*************************"
-    println "Get TTT projects from Git"
-
     // Copy downloaded sources from MF_Source to MF_Source_final
     dir(ProjDir)
     {
         bat "copy ${MF_Source_tmp}\\*.* ${MF_Source_final}"
     }
 
-    stage("Get TTT projects from Git")
+    println "*******************"
+    println "Download Unit Tests"
+    println "*******************"    
+
+    stage("Download Unit Tests")
     {
-        //Download the tests
         checkout changelog: false, poll: false, 
             scm: [$class: 'GitSCM', 
-                branches: [[name: '*/master']], 
+                branches: [[name: "*/${Git_Branch}"]], 
                 doGenerateSubmoduleConfigurations: false, 
                 extensions: [], 
                 submoduleCfg: [], 
-                userRemoteConfigs: [[credentialsId: '87763671-db9a-47e1-80e7-33c1aba803b1', name: 'origin', url: "${Git_Repo}"]]]
+                userRemoteConfigs: [[credentialsId: "${Git_Credentials}", name: 'origin', url: "${Git_URL}"]]]
     }
 
     println "*************************"
     println "Loop through TTT projects"
+    println "*************************"
 
     // findFiles requires the "Pipeline Utilities Plugin"
-    // Get all testscenario files in the current workspace into a array of type File
+    // Get all testscenario files in the current workspace into an array of type File
     def ListOfScenarios = findFiles(glob: '**/*.testscenario')
 
+    // Get all Sources in the MF_Source_tmp folder into an array
     def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source_tmp}/*.cbl")
 
+    // Loop through all downloaded TTT scenarios
     ListOfScenarios.each
     {
         def ScenarioPath = it.path
         // Get root node of the path, i.e. the name of the TTT project
-        // The backslash in Windows paths is duplicated in Java to escape the single backslash
-        // Therefore it needs to be escaped twice now 
-        def ProjectName = it.path.trim().split("\\\\")[0] 
-        def Scenario = it.name
-        def ScenarioRoot = it.name.trim().split("\\.")[0]
-        def ScenarioTarget = ScenarioRoot.split("\\_")[0]
+        // The split method uses regex to search for patterns, therefore
+        // Backslahes, Dots and Underscores which mean certain patterns in regex need to be escaped 
+        // The backslash in Windows paths is duplicated in Java, therefore it need to be escaped twice
+        def ProjectName         = it.path.trim().split("\\\\")[0]   // TTT Project name is the root folder of the full path to the testscenario 
+        def ScenarioFullName    = it.name                           // Get the full name of the testscenario file i.e. "name.testscenario"
+        def ScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
+        def ScenarioTarget      = ScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
 
+        // For each of the scenarios walk through the list of new scources and determine if the target matches one of the programs
+        // In that case, execute the unit test
         ListOfSources.each
         {
+            //Determine if the program name matches the target of the TTT scenario
             if(it.name.trim().split("\\.")[0] == ScenarioTarget)
             {
                 println "*************************"
                 println "Scenario " + Scenario
                 println "Path " + ScenarioPath
                 println "Project " + ProjectName
+                println "*************************"
             
                 stage("TTT Project ${ProjectName}, Scenario ${ScenarioRoot}")
                 {
-
                     step([$class: 'TotalTestBuilder', 
                         ccClearStats: false,
                         ccRepo: "${CC_repository}",
                         ccSystem: "${ISPW_Application}_${ProjectName}", 
-                        ccTestId: "${BUILD_DISPLAY_NAME}",  //resolves to build number, i.e. #177 
-                        credentialsId: "${Jenkins_Id}", 
+                        ccTestId: "${BUILD_DISPLAY_NAME}",  //Jenkins environemnt variable, resolves to build number, i.e. #177 
+                        credentialsId: "${HCI_Token}", 
                         deleteTemp: true, 
                         hlq: '', 
                         connectionId: "${HCI_Conn_ID}",
@@ -207,8 +197,9 @@ node{
         }
     }
 
-    println "*************************"
+    println "****************"
     println "Gather CoCo Data"
+    println "****************"
 
     stage("Gather CoCo Data")
     {
@@ -219,34 +210,30 @@ node{
             analysisProperties: ccproperties,
                 analysisPropertiesPath: '',
                 connectionId: "${HCI_Conn_ID}",
-                credentialsId: "${Jenkins_Id}"])
+                credentialsId: "${HCI_Token}"])
     }
 
-    println "*************************"
+    println "******************"
     println "SonarQube analysis"
+    println "******************"
 
     stage("SonarQube analysis") 
     {
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool 'Scanner';
 
-        //def ListOfScenarios = findFiles(glob: '**/*.testscenario')
-
         ListOfScenarios.each
         {
             def ScenarioPath = it.path
-            // Get root node of the path, i.e. the name of the TTT project
-            // The backslash in Windows paths is duplicated in Java to escape the single backslash
-            // Therefore it needs to be escaped twice now 
             def ProjectName = it.path.trim().split("\\\\")[0] 
             def ScenarioRoot = it.name.trim().split("\\.")[0]
 
             withSonarQubeEnv('CWCC') 
             {
                 // Run SonarQube Scanner 
-                // Use MF_Source_final diractory which contains all sources ... downloaded and old ones
                 def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${ScenarioRoot}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
                 def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
+                // Use MF_Source_final diractory which contains all sources, i.e. downloaded and old ones
                 def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source_final}"
                 def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source_final}"
                 def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
@@ -255,9 +242,10 @@ node{
         }
     }
 
-/*
-    println "*************************"
+
+    println "******************"
     println "Check Quality Gate"
+    println "******************"
 
     stage("Check Quality Gate")
     {
@@ -268,7 +256,8 @@ node{
         {
             println "**********************************************************"
             println "Pipeline aborted due to quality gate failure: ${qg.status}"
-            
+            println "**********************************************************"
+
             // If the quality gate is anything other than Green, regress the promoted code
             ISPWFunction        = " -ISPWFunction ContainerOperation"
             ces                 = " -ces " + "${CES_Connection}"
@@ -288,9 +277,7 @@ node{
             println "Quality Gate status is: {${qg.status}"
         }
     }   
-    }
-    */
-
+    
     /*
     stage("Promote Code")
     {
