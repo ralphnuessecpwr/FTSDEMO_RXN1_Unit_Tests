@@ -233,7 +233,7 @@ node{
             withSonarQubeEnv('CWCC') 
             {
                 // Run SonarQube Scanner 
-                def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${ScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+                def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=Sonar/${ScenarioName}.xml -Dsonar.coverageReportPaths=../Coverage/CodeCoverage.xml"
                 def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
                 // Use MF_Source_final diractory which contains all sources, i.e. downloaded and old ones
                 def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source_final}"
