@@ -169,7 +169,7 @@ node{
             if(it.name.trim().split("\\.")[0] == ScenarioTarget)
             {
                 println "*************************"
-                println "Scenario " + Scenario
+                println "Scenario " + ScenarioName
                 println "Path " + ScenarioPath
                 println "Project " + ProjectName
                 println "*************************"
@@ -263,7 +263,7 @@ node{
             def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
             def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
             def ISPW_Remain_Parms           = '\nevents.name=Complete\nevents.body=Promoted\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
-            
+
             def ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
         
             ispwOperation connectionId: HCI_Conn_ID, 
