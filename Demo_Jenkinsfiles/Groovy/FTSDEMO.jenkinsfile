@@ -169,12 +169,12 @@ node{
             if(it.name.trim().split("\\.")[0] == ScenarioTarget)
             {
                 println "*************************"
-                println "Scenario " + ScenarioName
+                println "Scenario " + ScenarioFullName
                 println "Path " + ScenarioPath
                 println "Project " + ProjectName
                 println "*************************"
             
-                stage("TTT Project ${ProjectName}, Scenario ${ScenarioName}")
+                stage("TTT Project ${ProjectName}, Scenario ${ScenarioFullName}")
                 {
                     step([$class: 'TotalTestBuilder', 
                         ccClearStats: false,
@@ -187,7 +187,7 @@ node{
                         connectionId: "${HCI_Conn_ID}",
                         jcl: "${TTT_Jcl}", 
                         projectFolder: "${ProjectName}", 
-                        testSuite: "${Scenario}", 
+                        testSuite: "${ScenarioFullName}", 
                         useStubs: true])
                     
                     // Process the Total Test result files into Jenkins
