@@ -256,19 +256,20 @@ node{
         {
             println "**********************************************************"
             println "Pipeline aborted due to quality gate failure: ${qg.status}"
+            println "Will regress assignemt: ${ISPW_Assignment}, Level: ${ISPW_Src_Level}"
             println "**********************************************************"
 
             // If the quality gate is anything other than Green, regress the promoted code
             def ISPW_Assignment_Parm        = 'assignmentId=' + ISPW_Assignment
             def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
             def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
-            def ISPW_Remain_Parms           = '\nevents.name=Complete\nevents.body=Promoted\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
+            def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
             def ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
         
             ispwOperation connectionId: HCI_Conn_ID, 
                 credentialsId: CES_Connection, 
-                ispwAction: 'PromoteAssignment', 
+                ispwAction: 'RegressAssignment', 
                 ispwRequestBody: ISPW_Parms
         }
         else
