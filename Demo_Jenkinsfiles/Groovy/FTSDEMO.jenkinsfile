@@ -16,6 +16,7 @@ String CES_Token         = "665fc9fb-39de-428a-8a67-a3619752873d"   //Credential
 // ISPW Variables for promote/deploy/generate/regress operations
 String ISPW_ContainerType   = "assignments" //Valid values are assignments or releases
 String ISPW_RuntimeConfig   = "ISPW"
+String ISPW_Target_Level    = "STG"
 
 // Git Parameters
 String Git_User         = "ralphnuessecpwr"
@@ -43,7 +44,7 @@ String SQ_Project           = "Ralph_Madrid"
 // XL Release template to trigger / XL Release user to connect with / The
 String XLR_Template         = "A Release from Jenkins"  // XL Release template to invoke at the end of the Jenkins workflow
 String XLR_User             = "xebialabs"               // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
-//String XLR_Release          = "GENA Q2"
+String XLR_Release          = "GENA Q2"
 
 // One node with several stages => All variables are local to the node and available to all stages
 node{
@@ -52,6 +53,7 @@ node{
     def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
     // Use the Path Index to determine the right Runner JCL to use (different STEPLIB concatenations)
     def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
+    
 /*
     stage("Generate Programs")
     {
@@ -252,43 +254,66 @@ node{
         // Wait for webhook call back from SonarQube
         def qg = waitForQualityGate()
 
-        if (qg.status != 'OK')
+        timeout(time: 2, unit: 'MINUTES') 
         {
-            println "**********************************************************"
-            println "Pipeline aborted due to quality gate failure: ${qg.status}"
-            println "Will regress assignemt: ${ISPW_Container}, Level: ${ISPW_Src_Level}"
-            println "**********************************************************"
-
-            // If the quality gate is anything other than Green, regress the promoted code
-            def ISPW_Container_Parm        = "${ISPW_Container_Type}Id=" + ISPW_Container
-            def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
-            def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
-            def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
-
-            def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
-        
-            if(ISPW_Container_Type == "assignment")
+            if (qg.status != 'OK')
             {
-                ispwOperation connectionId: HCI_Conn_ID, 
-                    credentialsId: CES_Connection, 
-                    ispwAction: 'RegressAssignment', 
-                    ispwRequestBody: ISPW_Parms
+                println "**********************************************************"
+                println "Pipeline aborted due to quality gate failure: ${qg.status}"
+                println "Will regress assignemt: ${ISPW_Container}, Level: ${ISPW_Src_Level}"
+                println "**********************************************************"
+
+                // If the quality gate is anything other than Green, regress the promoted code
+                def ISPW_Container_Parm        = "${ISPW_Container_Type}Id=" + ISPW_Container
+                def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
+                def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
+                def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
+
+                def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
+            
+                if(ISPW_Container_Type == "assignment")
+                {
+                    ispwOperation consoleLogResponseBody: true,
+                        connectionId: HCI_Conn_ID, 
+                        credentialsId: CES_Connection, 
+                        ispwAction: 'RegressAssignment', 
+                        ispwRequestBody: ISPW_Parms
+                }
+                else
+                {
+                    ispwOperation consoleLogResponseBody: true,
+                        connectionId: HCI_Conn_ID, 
+                        credentialsId: CES_Connection, 
+                        ispwAction: 'RegressRelease', 
+                        ispwRequestBody: ISPW_Parms                
+                }
+
+                error "Exiting Pipeline"
             }
             else
             {
-                ispwOperation connectionId: HCI_Conn_ID, 
-                    credentialsId: CES_Connection, 
-                    ispwAction: 'RegressRelease', 
-                    ispwRequestBody: ISPW_Parms                
+                println "**********************************************************"
+                println "Quality Gate status is: {${qg.status}"
+                println "Will Start XP Release"
+                println "**********************************************************"
+
+                stage("Start Release")
+                {
+                    // Trigger XL Release Jenkins Plugin to kickoff a Release
+                    xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
+                        serverCredentials: "${XLR_User}", 
+                        startRelease: true, 
+                        template: "${XLR_Template}", 
+                        variables: [[propertyName: 'ISPW_Dev_level', propertyValue: "${ISPW_Src_Level}"], 
+                            [propertyName: 'ISPW_Stg_Level', propertyValue: "${ISPW_Target_Level}"], 
+                            [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${XLR_Release}"], 
+                            [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
+                }
             }
         }
-        else
-        {
-            println "**********************************************************"
-            println "Quality Gate status is: {${qg.status}"
-            println "**********************************************************"
-        }
     }   
+}
+
     
     /*
     stage("Promote Code")
@@ -323,4 +348,3 @@ in.close();
             wait: true, waitTime: 0])
     }
 */
-}
