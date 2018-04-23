@@ -77,7 +77,7 @@ node{
     {
         checkout changelog: false, poll: false, 
             scm: [$class: 'GitSCM', 
-                branches: [[name: "*/${Git_Branch}"]], 
+//                branches: [[name: "*/${Git_Branch}"]], 
                 doGenerateSubmoduleConfigurations: false, 
                 extensions: [], 
                 submoduleCfg: [], 
@@ -181,7 +181,7 @@ node{
             withSonarQubeEnv('CWCC') 
             {
                 // Run SonarQube Scanner 
-                def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=Sonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+                def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
                 def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
                 def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
                 def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
