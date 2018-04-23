@@ -91,51 +91,51 @@ node{
 
     // findFiles requires the "Pipeline Utilities Plugin"
     // Get all testscenario files in the current workspace into an array of type File
-    def ListOfScenarios = findFiles(glob: '**/*.testscenario')
+    def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
 
     // Get all Sources in the MF_Source folder into an array
     def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
 
     // Loop through all downloaded TTT scenarios
-    ListOfScenarios.each
+    TTTListOfScenarios.each
     {
-        def ScenarioPath = it.path
+        def TTTScenarioPath = it.path
         // Get root node of the path, i.e. the name of the TTT project
         // The split method uses regex to search for patterns, therefore
         // Backslahes, Dots and Underscores which mean certain patterns in regex need to be escaped 
         // The backslash in Windows paths is duplicated in Java, therefore it need to be escaped twice
-        def ProjectName         = it.path.trim().split("\\\\")[0]   // TTT Project name is the root folder of the full path to the testscenario 
-        def ScenarioFullName    = it.name                           // Get the full name of the testscenario file i.e. "name.testscenario"
-        def ScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
-        def ScenarioTarget      = ScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
+        def TTTProjectName         = it.path.trim().split("\\\\")[0]   // TTT Project name is the root folder of the full path to the testscenario 
+        def TTTScenarioFullName    = it.name                           // Get the full name of the testscenario file i.e. "name.testscenario"
+        def TTTScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
+        def TTTScenarioTarget      = TTTScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
 
         // For each of the scenarios walk through the list of new scources and determine if the target matches one of the programs
         // In that case, execute the unit test
         ListOfSources.each
         {
             //Determine if the program name matches the target of the TTT scenario
-            if(it.name.trim().split("\\.")[0] == ScenarioTarget)
+            if(it.name.trim().split("\\.")[0] == TTTScenarioTarget)
             {
                 println "*************************"
-                println "Scenario " + ScenarioFullName
-                println "Path " + ScenarioPath
-                println "Project " + ProjectName
+                println "Scenario " + TTTScenarioFullName
+                println "Path " + TTTScenarioPath
+                println "Project " + TTTProjectName
                 println "*************************"
             
-                stage("TTT Project ${ProjectName}, Scenario ${ScenarioFullName}")
+                stage("TTT Project ${TTTProjectName}, Scenario ${TTTScenarioFullName}")
                 {
                     step([$class: 'TotalTestBuilder', 
                         ccClearStats: false,
                         ccRepo: "${CC_repository}",
-                        ccSystem: "${ISPW_Application}_${ProjectName}", 
+                        ccSystem: "${ISPW_Application}_${TTTProjectName}", 
                         ccTestId: "${BUILD_DISPLAY_NAME}",  //Jenkins environemnt variable, resolves to build number, i.e. #177 
                         credentialsId: "${HCI_Token}", 
                         deleteTemp: true, 
                         hlq: '', 
                         connectionId: "${HCI_Conn_ID}",
                         jcl: "${TTT_Jcl}", 
-                        projectFolder: "${ProjectName}", 
-                        testSuite: "${ScenarioFullName}", 
+                        projectFolder: "${TTTProjectName}", 
+                        testSuite: "${TTTScenarioFullName}", 
                         useStubs: true])
                     
                     // Process the Total Test result files into Jenkins
@@ -172,16 +172,16 @@ node{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool 'Scanner';
 
-        ListOfScenarios.each
+        TTTListOfScenarios.each
         {
-            def ScenarioPath = it.path
-            def ProjectName = it.path.trim().split("\\\\")[0] 
-            def ScenarioName = it.name.trim().split("\\.")[0]
+            def TTTScenarioPath = it.path
+            def TTTProjectName = it.path.trim().split("\\\\")[0] 
+            def TTTScenarioName = it.name.trim().split("\\.")[0]
 
             withSonarQubeEnv('CWCC') 
             {
                 // Run SonarQube Scanner 
-                def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=Sonar/${ScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+                def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=Sonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
                 def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
                 def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
                 def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
