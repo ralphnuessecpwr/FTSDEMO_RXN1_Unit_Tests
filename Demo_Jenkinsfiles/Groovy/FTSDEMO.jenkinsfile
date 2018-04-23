@@ -26,13 +26,7 @@ String Git_URL          = "https://github.com/${Git_User}/${Git_Repo}"
 String Git_Branch       = "master"
 
 // Directories for source and tests that are downloaded to the jenkins workspace
-String MF_Source_tmp        = "MF_Source"           // The ISPW Plugin will download sources to the folder, this will contain only the currently promoted sources
-String MF_Source_final      = "MF_Source_final"     // This folder will contain all sources across several executions of the pipeline
-                                                    // This folder will be passed to the SonarQuba Scanner
-
-String ProjDir              = ".\\" + ISPW_Application          // Root folder within workspace for the ISPW Application
-String TDir                 = ProjDir + "\\" + MF_Source_tmp    // Subfolder in the project folder for temporary sources (s.above)
-String FDir                 = ProjDir + "\\" + MF_Source_final  // Subfolder in the project folder for final sources (s.above)
+String MF_Source            = "MF_Source"                       // The ISPW Plugin will download sources to the folder
 
 // TTT and COCO
 String CC_repository        = "HDDRXM0.DEMO.COCO.REPOS"
@@ -48,61 +42,17 @@ String XLR_Release          = "GENA Q2"
 
 // One node with several stages => All variables are local to the node and available to all stages
 node{
-    
+        
     // Determine the last character of the ISPW level to identify the path within the life cycle
     def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
     // Use the Path Index to determine the right Runner JCL to use (different STEPLIB concatenations)
     def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
-    
-/*
-    stage("Generate Programs")
-    {
-        // Define variables to be used to call ISPW
-        def ISPWFunction        
-        def ces                 
-        def runtimeconfig       
-        def containerType       
-        def operation           
-        def container           
-        def level               
-        def token      
 
-        // Compile code for the container
-        ISPWFunction        = " -ISPWFunction ContainerOperation"
-        ces                 = " -ces " + "${CES_Connection}"
-        runtimeconfig       = " -runtimeconfig ${ISPW_RuntimeConfig}"
-        containerType       = " -containerType ${ISPW_ContainerType}"
-        operation           = " -operation generate"
-        container           = " -container " + "${ISPW_Container}"
-        level               = " -level " + "${ISPW_Src_Level}"
-        token               = " -token " + "${CES_Token}"
-        bat "powershell c:\\ISPW\\ISPW_Operations.ps1" + ISPWFunction + ces + runtimeconfig + containerType + operation + container + level + token
-    }
-*/
-
+    // Download all sources from the desired level and above
     println "******************************"
     println "Download Source Code from ISPW"
     println "******************************"
 
-    // Delete the contents of the MF_Source_tmp Directory, so that only newly downloaded sources get handled
-    dir(TDir) 
-    {
-        deleteDir()
-    }
-    
-    // Create the MF_Source_final Directory, if it does not exist
-    if( fileExists(FDir))
-    {
-        println "FDir: " + FDir + " exists"
-    }
-    else
-    {
-        dir(ProjDir) 
-        {
-            bat "mkdir ${MF_Source_final}"
-        }        
-    }
-      
     stage("Download Source Code")
     {
         checkout(changelog: false, poll: false, 
@@ -111,23 +61,18 @@ node{
                 connectionId: "${HCI_Conn_ID}", 
                 credentialsId: "${HCI_Token}", 
                 folderName: '', 
-                levelOption: '0', 
+                levelOption: '1', 
                 serverApplication: "${ISPW_Application}", 
                 serverConfig: "${ISPW_RuntimeConfig}", 
                 serverLevel: "${ISPW_Src_Level}", 
                 serverStream: "${ISPW_Stream}"])
     }
 
-    // Copy downloaded sources from MF_Source to MF_Source_final
-    dir(ProjDir)
-    {
-        bat "copy ${MF_Source_tmp}\\*.* ${MF_Source_final}"
-    }
-
     println "*******************"
     println "Download Unit Tests"
     println "*******************"    
 
+    // Download all available Unit Tests
     stage("Download Unit Tests")
     {
         checkout changelog: false, poll: false, 
@@ -139,6 +84,7 @@ node{
                 userRemoteConfigs: [[credentialsId: "${Git_Credentials}", name: 'origin', url: "${Git_URL}"]]]
     }
 
+    // Search all downloaded testscenarios and loop through them
     println "*************************"
     println "Loop through TTT projects"
     println "*************************"
@@ -147,8 +93,8 @@ node{
     // Get all testscenario files in the current workspace into an array of type File
     def ListOfScenarios = findFiles(glob: '**/*.testscenario')
 
-    // Get all Sources in the MF_Source_tmp folder into an array
-    def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source_tmp}/*.cbl")
+    // Get all Sources in the MF_Source folder into an array
+    def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
 
     // Loop through all downloaded TTT scenarios
     ListOfScenarios.each
@@ -199,13 +145,14 @@ node{
         }
     }
 
+    // Download CoCo Results from Test Runs
     println "****************"
     println "Gather CoCo Data"
     println "****************"
 
     stage("Gather CoCo Data")
     {
-        string sources="${ISPW_Application}\\MF_Source"
+        string sources="${ISPW_Application}\\${MF_Source}"
         def ccproperties   = 'cc.sources=' + sources + '\rcc.repos=' + CC_repository + '\rcc.system=' + ISPW_Application + "*" + '\rcc.test=' + BUILD_DISPLAY_NAME + '\rcc.ddio.overrides=' + CC_DDIO_Override
 
         step([$class: 'CodeCoverageBuilder',
@@ -215,6 +162,7 @@ node{
                 credentialsId: "${HCI_Token}"])
     }
 
+    // Analyse Sources, Test Results and Coverage in SonarQube
     println "******************"
     println "SonarQube analysis"
     println "******************"
@@ -233,18 +181,17 @@ node{
             withSonarQubeEnv('CWCC') 
             {
                 // Run SonarQube Scanner 
-                def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=Sonar/${ScenarioName}.xml -Dsonar.coverageReportPaths=../Coverage/CodeCoverage.xml"
+                def SQ_Tests                = " -Dsonar.tests=${ProjectName} -Dsonar.testExecutionReportPaths=Sonar/${ScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
                 def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
-                // Use MF_Source_final diractory which contains all sources, i.e. downloaded and old ones
-                def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source_final}"
-                def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source_final}"
+                def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
+                def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
                 def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
                 bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf
             }
         }
     }
 
-
+    // Check Quality Gate from SonarQube Scanner
     println "******************"
     println "Check Quality Gate"
     println "******************"
@@ -258,12 +205,12 @@ node{
         {
             if (qg.status != 'OK')
             {
+    // If the quality gate is anything other than Green, regress the promoted code                
                 println "**********************************************************"
                 println "Pipeline aborted due to quality gate failure: ${qg.status}"
                 println "Will regress assignemt: ${ISPW_Container}, Level: ${ISPW_Src_Level}"
                 println "**********************************************************"
 
-                // If the quality gate is anything other than Green, regress the promoted code
                 def ISPW_Container_Parm        = "${ISPW_Container_Type}Id=" + ISPW_Container
                 def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
@@ -292,14 +239,14 @@ node{
             }
             else
             {
+    // Trigger XL Release Jenkins Plugin to kickoff a Release                
                 println "**********************************************************"
                 println "Quality Gate status is: {${qg.status}"
                 println "Will Start XP Release"
                 println "**********************************************************"
 
                 stage("Start Release")
-                {
-                    // Trigger XL Release Jenkins Plugin to kickoff a Release
+                {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
                         serverCredentials: "${XLR_User}", 
                         startRelease: true, 
