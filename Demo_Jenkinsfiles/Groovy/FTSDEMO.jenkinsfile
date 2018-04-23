@@ -96,6 +96,13 @@ node{
     // Get all Sources in the MF_Source folder into an array
     def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
 
+    def ListOfPrograms = []
+    
+    ListOfSources.each
+    {
+        ListOfPrograms.add(it.name.trim().split("\\.")[0])
+    }
+
     // Loop through all downloaded TTT scenarios
     TTTListOfScenarios.each
     {
@@ -109,38 +116,34 @@ node{
         def TTTScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
         def TTTScenarioTarget      = TTTScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
 
-        // For each of the scenarios walk through the list of new scources and determine if the target matches one of the programs
+        // For each of the scenarios determine, if the target program is contained in the downloaded sources
         // In that case, execute the unit test
-        ListOfSources.each
+        if(ListOfPrograms.contains(TTTScenarioTarget))
         {
-            //Determine if the program name matches the target of the TTT scenario
-            if(it.name.trim().split("\\.")[0] == TTTScenarioTarget)
+            println "*************************"
+            println "Scenario " + TTTScenarioFullName
+            println "Path " + TTTScenarioPath
+            println "Project " + TTTProjectName
+            println "*************************"
+        
+            stage("TTT Project ${TTTProjectName}, Scenario ${TTTScenarioName}")
             {
-                println "*************************"
-                println "Scenario " + TTTScenarioFullName
-                println "Path " + TTTScenarioPath
-                println "Project " + TTTProjectName
-                println "*************************"
-            
-                stage("TTT Project ${TTTProjectName}, Scenario ${TTTScenarioFullName}")
-                {
-                    step([$class: 'TotalTestBuilder', 
-                        ccClearStats: false,
-                        ccRepo: "${CC_repository}",
-                        ccSystem: "${ISPW_Application}_${TTTProjectName}", 
-                        ccTestId: "${BUILD_DISPLAY_NAME}",  //Jenkins environemnt variable, resolves to build number, i.e. #177 
-                        credentialsId: "${HCI_Token}", 
-                        deleteTemp: true, 
-                        hlq: '', 
-                        connectionId: "${HCI_Conn_ID}",
-                        jcl: "${TTT_Jcl}", 
-                        projectFolder: "${TTTProjectName}", 
-                        testSuite: "${TTTScenarioFullName}", 
-                        useStubs: true])
-                    
-                    // Process the Total Test result files into Jenkins
-                    junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
-                }
+                step([$class: 'TotalTestBuilder', 
+                    ccClearStats: false,
+                    ccRepo: "${CC_repository}",
+                    ccSystem: "${ISPW_Application}_${TTTProjectName}", 
+                    ccTestId: "${BUILD_DISPLAY_NAME}",  //Jenkins environemnt variable, resolves to build number, i.e. #177 
+                    credentialsId: "${HCI_Token}", 
+                    deleteTemp: true, 
+                    hlq: '', 
+                    connectionId: "${HCI_Conn_ID}",
+                    jcl: "${TTT_Jcl}", 
+                    projectFolder: "${TTTProjectName}", 
+                    testSuite: "${TTTScenarioFullName}", 
+                    useStubs: true])
+                
+                // Process the Total Test result files into Jenkins
+                junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
             }
         }
     }
