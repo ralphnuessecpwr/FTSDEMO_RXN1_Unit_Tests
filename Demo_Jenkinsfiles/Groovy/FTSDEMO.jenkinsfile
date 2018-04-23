@@ -214,27 +214,34 @@ node{
                 def ISPW_Container_Parm        = "${ISPW_Container_Type}Id=" + ISPW_Container
                 def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
-                def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
+                //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
-                def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm + ISPW_Remain_Parms
-            
-                if(ISPW_Container_Type == "assignment")
+                def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
+                /*
+                try
                 {
-                    ispwOperation consoleLogResponseBody: true,
-                        connectionId: HCI_Conn_ID, 
-                        credentialsId: CES_Connection, 
-                        ispwAction: 'RegressAssignment', 
-                        ispwRequestBody: ISPW_Parms
+                    if(ISPW_Container_Type == "assignment")
+                    {
+                        ispwOperation consoleLogResponseBody: true,
+                            connectionId: HCI_Conn_ID, 
+                            credentialsId: CES_Connection, 
+                            ispwAction: 'RegressAssignment', 
+                            ispwRequestBody: ISPW_Parms
+                    }
+                    else
+                    {
+                        ispwOperation consoleLogResponseBody: true,
+                            connectionId: HCI_Conn_ID, 
+                            credentialsId: CES_Connection, 
+                            ispwAction: 'RegressRelease', 
+                            ispwRequestBody: ISPW_Parms                
+                    }
                 }
-                else
+                catch(IllegalStateException exception)
                 {
-                    ispwOperation consoleLogResponseBody: true,
-                        connectionId: HCI_Conn_ID, 
-                        credentialsId: CES_Connection, 
-                        ispwAction: 'RegressRelease', 
-                        ispwRequestBody: ISPW_Parms                
-                }
 
+                }
+                */
                 error "Exiting Pipeline"
             }
             else
@@ -244,7 +251,7 @@ node{
                 println "Quality Gate status is: {${qg.status}"
                 println "Will Start XP Release"
                 println "**********************************************************"
-
+                /*
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
@@ -256,6 +263,7 @@ node{
                             [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${XLR_Release}"], 
                             [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
                 }
+                */
             }
         }
     }   
