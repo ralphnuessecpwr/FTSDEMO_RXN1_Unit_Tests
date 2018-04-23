@@ -84,54 +84,56 @@ node{
                 userRemoteConfigs: [[credentialsId: "${Git_Credentials}", name: 'origin', url: "${Git_URL}"]]]
     }
 
-    // Search all downloaded testscenarios and loop through them
-    println "*************************"
-    println "Loop through TTT projects"
-    println "*************************"
-
-    // findFiles requires the "Pipeline Utilities Plugin"
-    // Get all testscenario files in the current workspace into an array of type File
-    def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
-
-    // Get all Sources in the MF_Source folder into an array
-    def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
-
-    def ListOfPrograms = []
-    
-    ListOfSources.each
+    stage("Unit Tests")
     {
-        ListOfPrograms.add(it.name.trim().split("\\.")[0])
-    }
+        // Search all downloaded testscenarios and loop through them
+        println "*************************"
+        println "Loop through TTT projects"
+        println "*************************"
 
-    // Loop through all downloaded TTT scenarios
-    TTTListOfScenarios.each
-    {
-        def TTTScenarioPath = it.path
-        // Get root node of the path, i.e. the name of the TTT project
-        // The split method uses regex to search for patterns, therefore
-        // Backslahes, Dots and Underscores which mean certain patterns in regex need to be escaped 
-        // The backslash in Windows paths is duplicated in Java, therefore it need to be escaped twice
-        def TTTProjectName         = it.path.trim().split("\\\\")[0]   // TTT Project name is the root folder of the full path to the testscenario 
-        def TTTScenarioFullName    = it.name                           // Get the full name of the testscenario file i.e. "name.testscenario"
-        def TTTScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
-        def TTTScenarioTarget      = TTTScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
+        // findFiles requires the "Pipeline Utilities Plugin"
+        // Get all testscenario files in the current workspace into an array of type File
+        def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
 
-        // For each of the scenarios determine, if the target program is contained in the downloaded sources
-        // In that case, execute the unit test
-        if(ListOfPrograms.contains(TTTScenarioTarget))
-        {
-            println "*************************"
-            println "Scenario " + TTTScenarioFullName
-            println "Path " + TTTScenarioPath
-            println "Project " + TTTProjectName
-            println "*************************"
+        // Get all Sources in the MF_Source folder into an ArrayList
+        def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
+
+        def ListOfPrograms = []
         
-            stage("TTT Project ${TTTProjectName}, Scenario ${TTTScenarioName}")
+        ListOfSources.each
+        {
+            ListOfPrograms.add(it.name.trim().split("\\.")[0])
+        }
+
+        // Loop through all downloaded TTT scenarios
+        TTTListOfScenarios.each
+        {
+            def TTTScenarioPath = it.path
+            // Get root node of the path, i.e. the name of the TTT project
+            // The split method uses regex to search for patterns, therefore
+            // Backslahes, Dots and Underscores which mean certain patterns in regex need to be escaped 
+            // The backslash in Windows paths is duplicated in Java, therefore it need to be escaped twice
+            def TTTProjectName         = it.path.trim().split("\\\\")[0]   // TTT Project name is the root folder of the full path to the testscenario 
+            def TTTScenarioFullName    = it.name                           // Get the full name of the testscenario file i.e. "name.testscenario"
+            def TTTScenarioName        = it.name.trim().split("\\.")[0]    // Get the name of the scenario file without ".testscenario"
+            def TTTScenarioTarget      = TTTScenarioName.split("\\_")[0]      // Target Program will be the first part of the scenario name (convention)
+    
+            // For each of the scenarios walk through the list of new scources and determine if the target matches one of the programs
+            // In that case, execute the unit test
+            
+            //Determine if the program name matches the target of the TTT scenario
+            if(ListOfPrograms.contains(TTTScenarioTarget))
             {
+                println "*************************"
+                println "Scenario " + TTTScenarioFullName
+                println "Path " + TTTScenarioPath
+                println "Project " + TTTProjectName
+                println "*************************"
+            
                 step([$class: 'TotalTestBuilder', 
                     ccClearStats: false,
                     ccRepo: "${CC_repository}",
-                    ccSystem: "${ISPW_Application}_${TTTProjectName}", 
+                    ccSystem: "${ISPW_Application}", 
                     ccTestId: "${BUILD_DISPLAY_NAME}",  //Jenkins environemnt variable, resolves to build number, i.e. #177 
                     credentialsId: "${HCI_Token}", 
                     deleteTemp: true, 
@@ -140,12 +142,12 @@ node{
                     jcl: "${TTT_Jcl}", 
                     projectFolder: "${TTTProjectName}", 
                     testSuite: "${TTTScenarioFullName}", 
-                    useStubs: true])
-                
-                // Process the Total Test result files into Jenkins
-                junit keepLongStdio: true, testResults: 'TTTUnit/*.xml'
+                    useStubs: true])                    
             }
         }
+
+        // Process the Total Test result files into Jenkins
+        junit allowEmptyResults: true, keepLongStdio: true, testResults: "TTTUnit/*.xml"
     }
 
     // Download CoCo Results from Test Runs
@@ -208,7 +210,7 @@ node{
         {
             if (qg.status != 'OK')
             {
-    // If the quality gate is anything other than Green, regress the promoted code                
+                // If the quality gate is anything other than Green, regress the promoted code                
                 println "**********************************************************"
                 println "Pipeline aborted due to quality gate failure: ${qg.status}"
                 println "Will regress assignemt: ${ISPW_Container}, Level: ${ISPW_Src_Level}"
@@ -249,7 +251,7 @@ node{
             }
             else
             {
-    // Trigger XL Release Jenkins Plugin to kickoff a Release                
+                // Trigger XL Release Jenkins Plugin to kickoff a Release                
                 println "**********************************************************"
                 println "Quality Gate status is: {${qg.status}"
                 println "Will Start XP Release"
@@ -271,38 +273,3 @@ node{
         }
     }   
 }
-
-    
-    /*
-    stage("Promote Code")
-    {
-        def ISPW_Parms = 'assignmentId=' + ISPW_Container + '\nlevel=' + ISPW_Src_Level + '\nruntimeConfiguration=' + ISPW_RuntimeConfig + '\nevents.name=Complete\nevents.body=Promoted\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
-        
-        ispwOperation connectionId: HCI_Conn_ID, 
-        credentialsId: CES_Connection, 
-        ispwAction: 'PromoteAssignment', 
-        ispwRequestBody: ISPW_Parms
-    }
-    */
-/*
-
-File f = new File( dateiname );
-byte[] buffer = new byte[ (int) f.length() ];
-InputStream in = new FileInputStream( f );
-in.read( buffer );
-in.close();
-
-    stage("Run Integration Test Job")
-    {
-        step([$class: 'ZOSJobSubmitter', 
-            JESINTERFACELEVEL1: false, 
-            MaxCC: '0000', 
-            deleteJobFromSpool: false, 
-            job: 'JCL', 
-            password: 'cpwr1804', 
-            port: 21, 
-            server: 'cwcc.compuware.com', 
-            userID: 'hddrxm0', 
-            wait: true, waitTime: 0])
-    }
-*/
