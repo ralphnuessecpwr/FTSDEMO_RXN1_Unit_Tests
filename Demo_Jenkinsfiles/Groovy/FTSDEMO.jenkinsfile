@@ -84,26 +84,26 @@ node{
                 userRemoteConfigs: [[credentialsId: "${Git_Credentials}", name: 'origin', url: "${Git_URL}"]]]
     }
 
+    // findFiles requires the "Pipeline Utilities Plugin"
+    // Get all testscenario files in the current workspace into an array of type File
+    def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
+
+    // Get all Sources in the MF_Source folder into an ArrayList
+    def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
+
+    def ListOfPrograms = []
+    
+    ListOfSources.each
+    {
+        ListOfPrograms.add(it.name.trim().split("\\.")[0])
+    }
+
     stage("Unit Tests")
     {
         // Search all downloaded testscenarios and loop through them
         println "*************************"
         println "Loop through TTT projects"
         println "*************************"
-
-        // findFiles requires the "Pipeline Utilities Plugin"
-        // Get all testscenario files in the current workspace into an array of type File
-        def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
-
-        // Get all Sources in the MF_Source folder into an ArrayList
-        def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
-
-        def ListOfPrograms = []
-        
-        ListOfSources.each
-        {
-            ListOfPrograms.add(it.name.trim().split("\\.")[0])
-        }
 
         // Loop through all downloaded TTT scenarios
         TTTListOfScenarios.each
