@@ -232,7 +232,7 @@ node{
                 println "**********************************************************"
 
                 def ISPW_Assignment_Parm        = "assignmentId=" + ISPW_Assignment
-                def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
+                ISPW_Level_Parm                 = '\nlevel=' + ISPW_Src_Level
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
                 //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
