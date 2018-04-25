@@ -48,7 +48,7 @@ node{
     def ISPW_Parms                  = ISPW_Release_Parm + ISPW_Level_Parm
 
     def Response = ispwOperation connectionId: "${HCI_Conn_ID}",
-        credentialsId: "${CESToken}", 
+        credentialsId: "${CES_Token}", 
         ispwAction: 'GetReleaseTaskList', 
         ispwRequestBody: ISPW_Parms
     
