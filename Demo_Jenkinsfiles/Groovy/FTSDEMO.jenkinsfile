@@ -56,7 +56,7 @@ node{
     def jsonSlurper         = new JsonSlurper()
     def TaskList            = jsonSlurper.parseText(Response.getContent())
     
-    def ISPW_Assignment     = TaskList.tasks.[0].container
+    def ISPW_Assignment     = TaskList.tasks[0].container
 
     // Determine the last character of the ISPW level to identify the path within the life cycle
     def String PathIdx      = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
