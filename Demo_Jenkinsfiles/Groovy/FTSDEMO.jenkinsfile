@@ -236,7 +236,7 @@ node{
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
                 //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
-                def ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
+                ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
                 /*
                 try
                 {
