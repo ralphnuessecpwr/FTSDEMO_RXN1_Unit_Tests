@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 import hudson.model.*
 import hudson.EnvVars
-import groovy.json.JsonSlurperClassic
+import groovy.json.JsonSlurper
 import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import java.net.URL
@@ -39,11 +39,29 @@ String XLR_Release          = "GENA Q2"
 
 // One node with several stages => All variables are local to the node and available to all stages
 node{
-        
+
+    //Determine the ISPW container name and type for the current release
+    //Get the Task List for the Release
+    def ISPW_Release_Parm           = 'releaseId=' + ISPW_Release
+    def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
+
+    def ISPW_Parms                  = ISPW_Release_Parm + ISPW_Level_Parm
+
+    def Response = ispwOperation connectionId: "${HCI_Conn_ID}",
+        credentialsId: "${CESToken}", 
+        ispwAction: 'GetReleaseTaskList', 
+        ispwRequestBody: ISPW_Parms
+    
+    //Convert the response to a JSON Object
+    def jsonSlurper         = new JsonSlurper()
+    def TaskList            = jsonSlurper.parseText(Response.getContent())
+    
+    def ISPW_Assignment     = TaskList.tasks.[0].container
+
     // Determine the last character of the ISPW level to identify the path within the life cycle
-    def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
+    def String PathIdx      = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
     // Use the Path Index to determine the right Runner JCL to use (different STEPLIB concatenations)
-    def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
+    def String TTT_Jcl      = "Runner_PATH${PathIdx}.jcl"
 
     // Download all sources from the desired level and above
     println "******************************"
@@ -210,34 +228,23 @@ node{
                 // If the quality gate is anything other than Green, regress the promoted code                
                 println "**********************************************************"
                 println "Pipeline aborted due to quality gate failure: ${qg.status}"
-                println "Will regress assignemt: ${ISPW_Container}, Level: ${ISPW_Src_Level}"
+                println "Will regress assignemt: ${ISPW_Assignment}, Level: ${ISPW_Src_Level}"
                 println "**********************************************************"
 
-                def ISPW_Container_Parm        = "${ISPW_Container_Type}Id=" + ISPW_Container
+                def ISPW_Assignment_Parm        = "assignmentId=" + ISPW_Assignment
                 def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
                 //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
-                def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
+                def ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
                 /*
                 try
                 {
-                    if(ISPW_Container_Type == "assignment")
-                    {
-                        ispwOperation consoleLogResponseBody: true,
-                            connectionId: HCI_Conn_ID, 
-                            credentialsId: CES_Token, 
-                            ispwAction: 'RegressAssignment', 
-                            ispwRequestBody: ISPW_Parms
-                    }
-                    else
-                    {
-                        ispwOperation consoleLogResponseBody: true,
-                            connectionId: HCI_Conn_ID, 
-                            credentialsId: CES_Token, 
-                            ispwAction: 'RegressRelease', 
-                            ispwRequestBody: ISPW_Parms                
-                    }
+                    ispwOperation consoleLogResponseBody: true,
+                        connectionId: HCI_Conn_ID, 
+                        credentialsId: CES_Token, 
+                        ispwAction: 'RegressAssignment', 
+                        ispwRequestBody: ISPW_Parms
                 }
                 catch(IllegalStateException exception)
                 {
