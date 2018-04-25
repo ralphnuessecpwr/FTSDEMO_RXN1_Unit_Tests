@@ -14,7 +14,6 @@ String HCI_Token         = "dde8dbfc-7818-436d-8b4b-0101c9734285"   //Credential
 String CES_Token         = "665fc9fb-39de-428a-8a67-a3619752873d"   //Credentials for CES
 
 // ISPW Variables for promote/deploy/generate/regress operations
-String ISPW_ContainerType   = "assignments" //Valid values are assignments or releases
 String ISPW_RuntimeConfig   = "ISPW"
 String ISPW_Target_Level    = "STG"
 
@@ -77,7 +76,7 @@ node{
     {
         checkout changelog: false, poll: false, 
             scm: [$class: 'GitSCM', 
-//                branches: [[name: "*/${Git_Branch}"]], 
+                branches: [[name: "*/${Git_Branch}"]], 
                 doGenerateSubmoduleConfigurations: false, 
                 extensions: [], 
                 submoduleCfg: [], 
@@ -88,7 +87,7 @@ node{
     // Get all testscenario files in the current workspace into an array of type File
     def TTTListOfScenarios = findFiles(glob: '**/*.testscenario')
 
-    // Get all Sources in the MF_Source folder into an ArrayList
+    // Get all Sources in the MF_Source folder into an Array
     def ListOfSources  = findFiles(glob: "**/${ISPW_Application}/${MF_Source}/*.cbl")
 
     def ListOfPrograms = []
