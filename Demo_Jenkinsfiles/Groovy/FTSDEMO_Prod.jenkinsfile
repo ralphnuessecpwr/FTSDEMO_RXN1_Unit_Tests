@@ -7,7 +7,7 @@ import groovy.json.JsonOutput
 import java.net.URL
 
 //Compuware Environment to connect, need to be defined in Jenkins via Credentials Dialogs and Plugin Dialogs
-String CES_Token         = "Hddrxm0CES"                             //Connection String to CES
+String CES_Token         = "71063193-ee67-4b52-890a-58843f33c183"   //Connection String to CES
 String HCI_Conn_ID       = "196de681-04d7-4170-824f-09a5457c5cda"   //Connection String to HCI      
 String HCI_Token         = "ea48408b-b2be-4810-8f4e-5b5f35977eb1"   //Credentials for HCI
 
