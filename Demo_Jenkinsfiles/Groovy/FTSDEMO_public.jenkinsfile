@@ -219,7 +219,7 @@ node{
                 //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
                 def ISPW_Parms = ISPW_Container_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
-                /*
+
                 try
                 {
                     if(ISPW_Container_Type == "assignment")
@@ -243,7 +243,7 @@ node{
                 {
 
                 }
-                */
+
                 error "Exiting Pipeline"
             }
             else
@@ -253,7 +253,7 @@ node{
                 println "Quality Gate status is: {${qg.status}"
                 println "Will Start XL Release"
                 println "**********************************************************"
-                /*
+                
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
@@ -265,7 +265,7 @@ node{
                             [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${XLR_Release}"], 
                             [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
                 }
-                */
+
             }
         }
     }   

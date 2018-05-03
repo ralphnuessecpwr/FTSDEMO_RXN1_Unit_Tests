@@ -272,7 +272,7 @@ node{
                 println "Quality Gate status is: {${qg.status}"
                 println "Will Start XL Release"
                 println "**********************************************************"
-                /*
+
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
@@ -284,7 +284,7 @@ node{
                             [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${XLR_Release}"], 
                             [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
                 }
-                */
+
             }
         }
     }   
