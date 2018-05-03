@@ -251,7 +251,7 @@ node{
                 // Trigger XL Release Jenkins Plugin to kickoff a Release                
                 println "**********************************************************"
                 println "Quality Gate status is: {${qg.status}"
-                println "Will Start XP Release"
+                println "Will Start XL Release"
                 println "**********************************************************"
                 /*
                 stage("Start Release")

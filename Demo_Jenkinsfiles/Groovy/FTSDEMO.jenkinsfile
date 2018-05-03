@@ -35,7 +35,7 @@ String SQ_Project           = "Ralph_Madrid"
 // XL Release template to trigger / XL Release user to connect with / The
 String XLR_Template         = "A Release from Jenkins"  // XL Release template to invoke at the end of the Jenkins workflow
 String XLR_User             = "xebialabs"               // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
-String XLR_Release          = "GENA Q2"
+String XLR_Release          = "${ISPW_Application}_${ISPW_Release}_${BUILD_DISPLAY_NAME}"
 
 // Function to return the ISPW Container from an ISPW Release
 def String getISPWContainer(String HCI_Conn, String CES_Token, String Release, String Level)
@@ -270,7 +270,7 @@ node{
                 // Trigger XL Release Jenkins Plugin to kickoff a Release                
                 println "**********************************************************"
                 println "Quality Gate status is: {${qg.status}"
-                println "Will Start XP Release"
+                println "Will Start XL Release"
                 println "**********************************************************"
                 /*
                 stage("Start Release")
