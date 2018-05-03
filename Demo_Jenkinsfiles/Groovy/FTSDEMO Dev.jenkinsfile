@@ -37,13 +37,42 @@ String XLR_Template         = "A Release from Jenkins"  // XL Release template t
 String XLR_User             = "xebialabs"               // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
 String XLR_Release          = "GENA Q2"
 
+//Function to take an ISPW Release ID and Level and return an assignment ID
+def String getISPWContainer(String HCI_Conn, String CES_Token, String Release, String Level)
+{
+
+    //Determine the ISPW container name and type for the current release
+    def ISPW_Release_Parm           = 'releaseId=' + Release
+    def ISPW_Level_Parm             = '\nlevel=' + Level
+
+    def ISPW_Parms                  = ISPW_Release_Parm + ISPW_Level_Parm
+
+    //Get the Task List for the Release    
+    def Response = ispwOperation connectionId: "${HCI_Conn}",
+        credentialsId: CES_Token, 
+        ispwAction: 'GetReleaseTaskList', 
+        ispwRequestBody: ISPW_Parms
+
+    //Convert the response to a JSON Object
+    def jsonSlurper         = new JsonSlurper()
+    def TaskList            = jsonSlurper.parseText(Response.getContent())
+
+    return TaskList.tasks[0].container.toString()
+}
+
+// Determine the last character of the ISPW level to identify the path within the life cycle
+def String getPathNum(String Level)
+{
+    return Level.charAt(Level.length() - 1)
+}
+
 // One node with several stages => All variables are local to the node and available to all stages
 node{
-        
-    // Determine the last character of the ISPW level to identify the path within the life cycle
-    def String PathIdx = ISPW_Src_Level.charAt(ISPW_Src_Level.length() - 1)
-    // Use the Path Index to determine the right Runner JCL to use (different STEPLIB concatenations)
-    def String TTT_Jcl = "Runner_PATH${PathIdx}.jcl"
+
+    def ISPW_Assignment = getISPWContainer(HCI_Conn_ID, CES_Token, ISPW_Release, ISPW_Src_Level)
+
+    // Use the Path Number to determine the right Runner JCL to use (different STEPLIB concatenations)
+    def TTT_Jcl = "Runner_PATH" + getPathNum(ISPW_Src_Level) + ".jcl"
 
     // Download all sources from the desired level and above
     println "******************************"

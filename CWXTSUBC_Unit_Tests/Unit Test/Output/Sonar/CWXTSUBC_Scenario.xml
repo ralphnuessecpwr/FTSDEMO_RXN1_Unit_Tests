@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 03.05.2018 14:14:44-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  3300.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  1000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  6000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  3333.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  6000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  1120.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		0
+
+Expected Value:  6000.00</failure>
+    </testCase>
+  </file>
+</testExecutions>
