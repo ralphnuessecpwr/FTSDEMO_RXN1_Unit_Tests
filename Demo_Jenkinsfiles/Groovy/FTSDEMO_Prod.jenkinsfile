@@ -13,7 +13,6 @@ String HCI_Token         = "ea48408b-b2be-4810-8f4e-5b5f35977eb1"   //Credential
 
 // ISPW Variables for promote/deploy/generate/regress operations
 String ISPW_RuntimeConfig   = "ISPW"
-String ISPW_Target_Level    = "STG"
 
 // Git Parameters
 String Git_User         = "ralphnuessecpwr"
@@ -27,7 +26,6 @@ String MF_Source            = "MF_Source"                       // The ISPW Plug
 
 // TTT and COCO
 String CC_repository        = "HDDRXM0.DEMO.COCO.REPOS"
-String CC_DDIO_Override     = "SALESSUP.${ISPW_Application}.${ISPW_Src_Level}.SSD"
 
 // SonarQube
 String SQ_Project           = "Ralph_Madrid"
@@ -39,6 +37,11 @@ String XLR_User             = "xebialabs"               // XL Release user ID. C
 // Function to return the ISPW Container from an ISPW Release
 def String getISPWContainer(String HCI_Conn, String CES_Token, String Release, String Level)
 {
+
+    println "Parms received"
+    println "ISPW_Application ${ISPW_Application}"
+    println "ISPW_Src_Level ${ISPW_Src_Level}"    
+    println "ISPW_Release ${ISPW_Release}"
 
     //Determine the ISPW container name and type for the current release
     def ISPW_Release_Parm           = 'releaseId=' + Release
@@ -67,20 +70,16 @@ def String getPathNum(String Level)
 
 // One node with several stages => All variables are local to the node and available to all stages
 node{
-    println "Parms received"
-    println "ISPW_Application ${ISPW_Application}"
-    println "ISPW_Src_Level ${ISPW_Src_Level}"    
-    println "ISPW_Release ${ISPW_Release}"
-    println "ISPW_Event ${ISPW_Event}"
-    println "ISPW_Operation ${ISPW_Operation}"
-    println "ISPW_Owner ${ISPW_Owner}"
-    println "ISPW_SetID ${ISPW_SetID}"
-    println "ISPW_Message ${ISPW_Message}"
-
-    def ISPW_Assignment = getISPWContainer(HCI_Conn_ID, CES_Token, ISPW_Release, ISPW_Src_Level)
+    def PathNum = getPathNum(ISPW_Src_Level)
 
     // Use the Path Number to determine the right Runner JCL to use (different STEPLIB concatenations)
-    def TTT_Jcl = "Runner_PATH" + getPathNum(ISPW_Src_Level) + ".jcl"
+    def TTT_Jcl = "Runner_PATH" + PathNum + ".jcl"
+
+    def ISPW_Target_Level = "QA" + PathNum
+
+    def ISPW_Assignment = getISPWContainer(HCI_Conn_ID, CES_Token, ISPW_Release, ISPW_Target_Level)
+
+    def CC_DDIO_Override     = "SALESSUP.${ISPW_Application}.${ISPW_Target_Level}.SSD"
 
     // Download all sources from the desired level and above
     println "******************************"
@@ -98,7 +97,7 @@ node{
                 levelOption: '1', 
                 serverApplication: "${ISPW_Application}", 
                 serverConfig: "${ISPW_RuntimeConfig}", 
-                serverLevel: "${ISPW_Src_Level}", 
+                serverLevel: "${ISPW_Target_Level}", 
                 serverStream: "${ISPW_Stream}"])
     }
 
@@ -247,11 +246,11 @@ node{
                 // If the quality gate is anything other than Green, regress the promoted code                
                 println "**********************************************************"
                 println "Pipeline aborted due to quality gate failure: ${qg.status}"
-                println "Will regress assignemt: ${ISPW_Assignment}, Level: ${ISPW_Src_Level}"
+                println "Will regress assignemt: ${ISPW_Assignment}, Level: ${ISPW_Target_Level}"
                 println "**********************************************************"
 
                 def ISPW_Assignment_Parm        = "assignmentId=" + ISPW_Assignment
-                def ISPW_Level_Parm             = '\nlevel=' + ISPW_Src_Level
+                def ISPW_Level_Parm             = '\nlevel=' + ISPW_Target_Level
                 def ISPW_Runtime_Config_Parm    = '\nruntimeConfiguration=' + ISPW_RuntimeConfig
                 //def ISPW_Remain_Parms           = '\nevents.name=Completed\nevents.body=Regressed\nevents.httpHeaders=Jenkins-Crumb:no-crumb\nevents.credentials=admin:library'
 
@@ -287,9 +286,9 @@ node{
                         serverCredentials: "${XLR_User}", 
                         startRelease: true, 
                         template: "${XLR_Template}", 
-                        variables: [[propertyName: 'ISPW_Dev_level', propertyValue: "${ISPW_Src_Level}"], 
+                        variables: [[propertyName: 'ISPW_Dev_level', propertyValue: "${ISPW_Target_Level}"], 
                             [propertyName: 'ISPW_Stg_Level', propertyValue: "${ISPW_Target_Level}"], 
-                            [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${IPSW_Release}"], 
+                            [propertyName: 'ISPW_RELEASE_ID', propertyValue: "${ISPW_Release}"], 
                             [propertyName: 'CES_Token', propertyValue: "${CES_Token}"]]
                 }
 
