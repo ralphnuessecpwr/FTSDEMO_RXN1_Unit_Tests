@@ -28,6 +28,8 @@ String MF_Source            = "MF_Source"                       // The ISPW Plug
 String CC_repository        = "HDDRXM0.DEMO.COCO.REPOS"
 
 // SonarQube
+String SQ_Scanner_Name      = "scanner"             // Name of SQ Scanner installation in Manage Jenkins/Global Tool Configuration/SonarQube Scanner Installations...
+String SQ_Server_Name       = "localhost"           // Name of SQ Server in Manage Jenkins/Configure System/Sonar Qube servers
 String SQ_Project           = "Ralph_Madrid"
 
 // XL Release template to trigger / XL Release user to connect with / The
@@ -208,7 +210,7 @@ node{
     stage("SonarQube analysis") 
     {
         // Requires SonarQube Scanner 2.8+
-        def scannerHome = tool 'Scanner';
+        def scannerHome = tool "${SQ_Scanner_Name}";
 
         TTTListOfScenarios.each
         {
@@ -216,7 +218,7 @@ node{
             def TTTProjectName = it.path.trim().split("\\\\")[0] 
             def TTTScenarioName = it.name.trim().split("\\.")[0]
 
-            withSonarQubeEnv('CWCC') 
+            withSonarQubeEnv("${SQ_Server_Name}")
             {
                 // Run SonarQube Scanner 
                 def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
