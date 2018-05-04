@@ -67,6 +67,10 @@ def String getPathNum(String Level)
 
 // One node with several stages => All variables are local to the node and available to all stages
 node{
+    println "Parms received"
+    println "ISPW_Application ${ISPW_Application}"
+    println "ISPW_Src_Level ${ISPW_Src_Level}"    
+    println "ISPW_Release ${ISPW_Release}"
 
     def ISPW_Assignment = getISPWContainer(HCI_Conn_ID, CES_Token, ISPW_Release, ISPW_Src_Level)
 
