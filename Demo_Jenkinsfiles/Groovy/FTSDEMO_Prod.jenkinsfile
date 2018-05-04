@@ -71,6 +71,11 @@ node{
     println "ISPW_Application ${ISPW_Application}"
     println "ISPW_Src_Level ${ISPW_Src_Level}"    
     println "ISPW_Release ${ISPW_Release}"
+    println "ISPW_Event ${ISPW_Event}"
+    println "ISPW_Operation ${ISPW_Operation}"
+    println "ISPW_Owner ${ISPW_Owner}"
+    println "ISPW_SetID ${ISPW_SetID}"
+    println "ISPW_Message ${ISPW_Message}"
 
     def ISPW_Assignment = getISPWContainer(HCI_Conn_ID, CES_Token, ISPW_Release, ISPW_Src_Level)
 
