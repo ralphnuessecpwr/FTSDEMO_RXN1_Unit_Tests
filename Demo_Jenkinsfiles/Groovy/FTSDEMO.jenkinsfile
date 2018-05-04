@@ -33,7 +33,7 @@ String CC_DDIO_Override     = "SALESSUP.${ISPW_Application}.${ISPW_Src_Level}.SS
 String SQ_Project           = "Ralph_Madrid"
 
 // XL Release template to trigger / XL Release user to connect with / The
-String XLR_Template         = "A Release from Jenkins"  // XL Release template to invoke at the end of the Jenkins workflow
+String XLR_Template         = "A Release from Jenkins - RNU"  // XL Release template to invoke at the end of the Jenkins workflow
 String XLR_User             = "xebialabs"               // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
 String XLR_Release          = "${ISPW_Application}_${ISPW_Release}_${BUILD_DISPLAY_NAME}"
 
