@@ -33,7 +33,7 @@ String SQ_Server_Name       = "localhost"           // Name of SQ Server in Mana
 String SQ_Project           = "Ralph_Madrid"
 
 // XL Release template to trigger / XL Release user to connect with / The
-String XLR_Template         = "A Release from Jenkins"  // XL Release template to invoke at the end of the Jenkins workflow
+String XLR_Template         = "A Release from Jenkins - RNU"  // XL Release template to invoke at the end of the Jenkins workflow
 String XLR_User             = "Ralph"                   // XL Release user ID. Configured in Jenkins/Manage Jenkins/Configure System/XL Release credentials
 
 // Function to return the ISPW Container from an ISPW Release
