@@ -1,82 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 03.05.2018 14:14:44-->
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 25.05.2018 13:01:47-->
 <testsuites>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  3300.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  1000.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  6000.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase3'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  3333.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase4'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  6000.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase5'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  1120.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase6'" name="Check for COMM_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" tests="3">
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" name="Check for EMP_TYPE"/>
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" name="Check for SALES_AMOUNT"/>
-    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" name="Check for COMM_TOTAL">
-      <failure>Check for COMM_TOTAL failed
-
-Actual Value:    		0
-
-Expected Value:  6000.00</failure>
-    </testcase>
+    <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase7'" name="Check for COMM_TOTAL"/>
   </testsuite>
 </testsuites>
