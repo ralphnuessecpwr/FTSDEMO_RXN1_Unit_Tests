@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario">
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTSUBC_Mgmt.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase1" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase1" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -11,7 +11,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -52,7 +52,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase2" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase2" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -61,7 +61,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -102,7 +102,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase3" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase3" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -111,7 +111,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -152,7 +152,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase4" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase4" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -161,7 +161,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -202,7 +202,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase5" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase5" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -211,7 +211,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -252,7 +252,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase6" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase6" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -261,7 +261,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
@@ -302,7 +302,7 @@
       </testcase:checkconditions>
       <testcase:stubs/>
     </testscenario:testcase>
-    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Scenario.testscenario%23CWXTSUBCCase7" target="CWXTSUBC">
+    <testscenario:testcase alias="" csect="CWXTSUBC" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario%23CWXTSUBCCase7" target="CWXTSUBC">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -311,7 +311,7 @@
       <testcase:input listructure="../Structures/CWXTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUBC_EMP-TYPE.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWXTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
           <properties:properties>
-            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="value" type="string">D4</properties:property>
             <properties:property name="expectedValue" type="string">E2</properties:property>
           </properties:properties>
         </testcase:data>
