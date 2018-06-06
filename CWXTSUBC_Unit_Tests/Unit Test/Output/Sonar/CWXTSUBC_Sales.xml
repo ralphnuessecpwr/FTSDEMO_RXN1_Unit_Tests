@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 06.06.2018 15:35:28-->
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 06.06.2018 15:40:11-->
 <testExecutions version="1">
   <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
     <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for EMP_TYPE'"/>
