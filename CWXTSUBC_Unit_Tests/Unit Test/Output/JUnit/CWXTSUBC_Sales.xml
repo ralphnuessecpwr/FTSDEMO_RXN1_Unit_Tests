@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 06.06.2018 15:18:58-->
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 06.06.2018 15:35:28-->
 <testsuites>
   <testsuite errors="0" failures="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1'" tests="3">
     <testcase classname="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1'" name="Check for EMP_TYPE"/>
