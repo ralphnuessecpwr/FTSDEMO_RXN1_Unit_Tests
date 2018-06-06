@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 04.06.2018 10:17:12-->
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 06.06.2018 15:18:58-->
 <testExecutions version="1">
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase1' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase2' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase3' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase4' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase5' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase6' Test: Check for COMM_TOTAL'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\git\FTSDEMO_RXN1_Unit_Tests\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for EMP_TYPE'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for SALES_AMOUNT'"/>
-    <testCase duration="0" name="Project: 'CWXTSUBC_Unit_Tests' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for COMM_TOTAL'"/>
+  <file path="C:\Jenkins\workspace\Pipeline from GIT\CWXTSUBC_Unit_Tests\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for EMP_TYPE'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: '' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase7' Test: Check for COMM_TOTAL'"/>
   </file>
 </testExecutions>
