@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 08:58:32-->
+<testsuites>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case1'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case1'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case1'" name="Check for EMP_TOTAL_WAGE">
+      <failure>Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  98000.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_01"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case2'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case2'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case2'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_02"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case3'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case3'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case3'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_03"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case4'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case4'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case4'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_04"/>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case5'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case5'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case5'" name="Check for EMP_TOTAL_WAGE">
+      <failure>Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  48000.90</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_05"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case6'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case6'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case6'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_06"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case7'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case7'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case7'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_07"/>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case8'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case8'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case8'" name="Check for EMP_TOTAL_WAGE">
+      <failure>Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  20000.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_08"/>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case9'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case9'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case9'" name="Check for EMP_TOTAL_WAGE">
+      <failure>Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  980000.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_09"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case10'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case10'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case10'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_10"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case11'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case11'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case11'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_11"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case12'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case12'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case12'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_12"/>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case13'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case13'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case13'" name="Check for EMP_TOTAL_WAGE">
+      <failure>Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  300.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_13"/>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case14'" tests="2">
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case14'" name="Check for EMP_NUMBER"/>
+    <testcase classname="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case14'" name="Check for EMP_TOTAL_WAGE"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTSDB2_C_SQL_14"/>
+</testsuites>

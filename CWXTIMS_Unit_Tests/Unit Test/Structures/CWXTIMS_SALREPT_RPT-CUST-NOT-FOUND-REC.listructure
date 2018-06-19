@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 10:17:47-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure">
+  <listructure:struct id="RPT_CUST_NOT_FOUND_REC" name="RPT_CUST_NOT_FOUND_REC">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">80</properties:property>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:struct id="RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC" name="RPT_CUST_NOT_FOUND_REC">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">80</properties:property>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER0" initial="&quot;CUSTOMER NOT FOUND: &quot;" length="20" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(20)</properties:property>
+          <properties:property name="value">&quot;CUSTOMER NOT FOUND: &quot;</properties:property>
+          <properties:property name="storageLength" type="number">20</properties:property>
+          <properties:property name="displayLength" type="number">20</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(20)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.RPT_CUST_SSA_KEY" length="6" name="RPT_CUST_SSA_KEY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(06)</properties:property>
+          <properties:property name="storageLength" type="number">6</properties:property>
+          <properties:property name="displayLength" type="number">6</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(06)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER1" initial="                                                      " length="54" name="FILLER1">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(54)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="storageLength" type="number">54</properties:property>
+          <properties:property name="displayLength" type="number">54</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(54)</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

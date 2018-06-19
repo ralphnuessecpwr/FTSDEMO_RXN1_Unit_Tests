@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 10:17:53-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure">
+  <listructure:struct id="RPT_ERROR_REC" name="RPT_ERROR_REC">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">80</properties:property>
+      <properties:property name="displayLength" type="number">80</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:struct id="RPT_ERROR_REC.RPT_ERROR_REC" name="RPT_ERROR_REC">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">80</properties:property>
+        <properties:property name="displayLength" type="number">80</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="RPT_ERROR_REC.RPT_ERROR_REC.FILLER0" initial="&quot;ERROR IN CUST DB: &quot;" length="19" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(19)</properties:property>
+          <properties:property name="value">&quot;ERROR IN CUST DB: &quot;</properties:property>
+          <properties:property name="storageLength" type="number">19</properties:property>
+          <properties:property name="displayLength" type="number">19</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(19)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="RPT_ERROR_REC.RPT_ERROR_REC.RPT_ERROR_STATUS_CODE" length="2" name="RPT_ERROR_STATUS_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(02)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(02)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="RPT_ERROR_REC.RPT_ERROR_REC.FILLER1" initial="                                                           " length="59" name="FILLER1">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(59)</properties:property>
+          <properties:property name="value">spaces</properties:property>
+          <properties:property name="storageLength" type="number">59</properties:property>
+          <properties:property name="displayLength" type="number">59</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(59)</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

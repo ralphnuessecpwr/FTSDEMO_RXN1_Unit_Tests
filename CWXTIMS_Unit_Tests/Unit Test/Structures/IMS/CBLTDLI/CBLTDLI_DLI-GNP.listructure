@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 10:16:30-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/IMS/CBLTDLI/CBLTDLI_DLI-GNP.listructure">
+  <listructure:struct id="DLI_GNP" name="DLI_GNP">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">4</properties:property>
+      <properties:property name="displayLength" type="number">4</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:string id="DLI_GNP.DLI_GNP" initial="&quot;GNP &quot;" length="4" name="DLI_GNP">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(04)</properties:property>
+        <properties:property name="value">&quot;GNP &quot;</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(04)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 10:18:05-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure">
+  <listructure:struct id="RPT_TOTAL_LINE" name="RPT_TOTAL_LINE">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">28</properties:property>
+      <properties:property name="displayLength" type="number">28</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:struct id="RPT_TOTAL_LINE.RPT_TOTAL_LINE" name="RPT_TOTAL_LINE">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">28</properties:property>
+        <properties:property name="displayLength" type="number">28</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="RPT_TOTAL_LINE.RPT_TOTAL_LINE.FILLER0" initial="&quot;SALES RECORDS PROCESSED: &quot;" length="25" name="FILLER0">
+        <properties:properties>
+          <properties:property name="filler" type="boolean">true</properties:property>
+          <properties:property name="picture" type="string">X(25)</properties:property>
+          <properties:property name="value">&quot;SALES RECORDS PROCESSED: &quot;</properties:property>
+          <properties:property name="storageLength" type="number">25</properties:property>
+          <properties:property name="displayLength" type="number">25</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(25)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:number id="RPT_TOTAL_LINE.RPT_TOTAL_LINE.RPT_RECORDS_READ" length="3" name="RPT_RECORDS_READ">
+        <properties:properties>
+          <properties:property name="picture" type="string">999</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="integerDigits" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">999</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>

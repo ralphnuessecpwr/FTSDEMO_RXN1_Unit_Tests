@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 10:16:30-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/IMS/CBLTDLI/CBLTDLI_CUSTOMER-SHIPMENT-DATA.listructure">
+  <listructure:struct id="CUSTOMER_SHIPMENT_DATA" name="CUSTOMER_SHIPMENT_DATA">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">194</properties:property>
+      <properties:property name="displayLength" type="number">194</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:struct id="CUSTOMER_SHIPMENT_DATA.CUSTOMER_SHIPMENT_KEY" name="CUSTOMER_SHIPMENT_KEY">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">2</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:number id="CUSTOMER_SHIPMENT_DATA.CUSTOMER_SHIPMENT_KEY.LOCATION_NUMBER" length="2" name="LOCATION_NUMBER">
+        <properties:properties>
+          <properties:property name="picture" type="string">99</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="integerDigits" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">zoned</properties:property>
+          <properties:property name="mask" type="string">99</properties:property>
+        </properties:properties>
+      </listructure:number>
+    </listructure:struct>
+    <listructure:struct id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS" name="SHIPPING_ADDRESS">
+      <properties:properties>
+        <properties:property name="storageLength" type="number">176</properties:property>
+        <properties:property name="displayLength" type="number">176</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+      </properties:properties>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_NAME" length="30" name="SA_NAME">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_TITLE" length="30" name="SA_TITLE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ADDR_LINE_1" length="30" name="SA_ADDR_LINE_1">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ADDR_LINE_2" length="30" name="SA_ADDR_LINE_2">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(30)</properties:property>
+          <properties:property name="storageLength" type="number">30</properties:property>
+          <properties:property name="displayLength" type="number">30</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(30)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_CITY" length="25" name="SA_CITY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(25)</properties:property>
+          <properties:property name="storageLength" type="number">25</properties:property>
+          <properties:property name="displayLength" type="number">25</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(25)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_STATE" length="2" name="SA_STATE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(02)</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+          <properties:property name="displayLength" type="number">2</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(02)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_ZIP_CODE" length="9" name="SA_ZIP_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(09)</properties:property>
+          <properties:property name="storageLength" type="number">9</properties:property>
+          <properties:property name="displayLength" type="number">9</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(09)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_COUNTRY" length="10" name="SA_COUNTRY">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(10)</properties:property>
+          <properties:property name="storageLength" type="number">10</properties:property>
+          <properties:property name="displayLength" type="number">10</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(10)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_AREA_CODE" length="3" name="SA_AREA_CODE">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(03)</properties:property>
+          <properties:property name="storageLength" type="number">3</properties:property>
+          <properties:property name="displayLength" type="number">3</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(03)</properties:property>
+        </properties:properties>
+      </listructure:string>
+      <listructure:string id="CUSTOMER_SHIPMENT_DATA.SHIPPING_ADDRESS.SA_TEL_NO" length="7" name="SA_TEL_NO">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(07)</properties:property>
+          <properties:property name="storageLength" type="number">7</properties:property>
+          <properties:property name="displayLength" type="number">7</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(07)</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+    <listructure:string id="CUSTOMER_SHIPMENT_DATA.FIRST_ACTIVITY_DATE" length="6" name="FIRST_ACTIVITY_DATE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(06)</properties:property>
+        <properties:property name="storageLength" type="number">6</properties:property>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(06)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTOMER_SHIPMENT_DATA.LAST_ACTIVITY_DATE" length="6" name="LAST_ACTIVITY_DATE">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(06)</properties:property>
+        <properties:property name="storageLength" type="number">6</properties:property>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(06)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:string id="CUSTOMER_SHIPMENT_DATA.FILLER0" length="4" name="FILLER0">
+      <properties:properties>
+        <properties:property name="filler" type="boolean">true</properties:property>
+        <properties:property name="picture" type="string">X(04)</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(04)</properties:property>
+      </properties:properties>
+    </listructure:string>
+  </listructure:struct>
+</listructure:listructure>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 08:58:32-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case1' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case1' Test: Check for EMP_TOTAL_WAGE'">
+      <failure message="Check for EMP_TOTAL_WAGE failed">Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  98000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_01.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case2' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case2' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_02.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case3' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case3' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_03.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case4' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case4' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_04.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case5' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case5' Test: Check for EMP_TOTAL_WAGE'">
+      <failure message="Check for EMP_TOTAL_WAGE failed">Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  48000.90</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_05.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case6' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case6' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_06.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case7' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case7' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_07.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case8' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case8' Test: Check for EMP_TOTAL_WAGE'">
+      <failure message="Check for EMP_TOTAL_WAGE failed">Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  20000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_08.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case9' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case9' Test: Check for EMP_TOTAL_WAGE'">
+      <failure message="Check for EMP_TOTAL_WAGE failed">Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  980000.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_09.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case10' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case10' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_10.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case11' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case11' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_11.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case12' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case12' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_12.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case13' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case13' Test: Check for EMP_TOTAL_WAGE'">
+      <failure message="Check for EMP_TOTAL_WAGE failed">Check for EMP_TOTAL_WAGE failed
+
+Actual Value:    		0
+
+Expected Value:  300.00</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_13.stub"/>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Scenarios\CWXTSDB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case14' Test: Check for EMP_NUMBER'"/>
+    <testCase duration="0" name="Project: 'CWXTSDB2_Unit_Tests' Scenario: 'CWXTSDB2_Scenario' Testcase: 'CWXTSDB2Case14' Test: Check for EMP_TOTAL_WAGE'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSDB2_Unit_Tests\Unit Test\Stubs\CWXTSDB2_C_SQL_14.stub"/>
+</testExecutions>

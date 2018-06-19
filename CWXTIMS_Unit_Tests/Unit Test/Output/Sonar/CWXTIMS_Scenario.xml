@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 08:58:32-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTIMS_Unit_Tests\Unit Test\Scenarios\CWXTIMS_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_SEGMENT_LEVEL'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_STATUS_CODE'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_SEGMENT_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_AP_KEY'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_SEGMENT_LEVEL'">
+      <failure message="Check for PCUST_AP_SEGMENT_LEVEL failed">Check for PCUST_AP_SEGMENT_LEVEL failed
+
+Actual Value:    		
+
+Expected Value:  00</failure>
+    </testCase>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_STATUS_CODE'">
+      <failure message="Check for PCUST_AP_STATUS_CODE failed">Check for PCUST_AP_STATUS_CODE failed
+
+Actual Value:    		
+
+Expected Value:  GP</failure>
+    </testCase>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_SEGMENT_NAME'">
+      <failure message="Check for PCUST_AP_SEGMENT_NAME failed">Check for PCUST_AP_SEGMENT_NAME failed
+
+Actual Value:    		HDAM
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_AP_KEY'">
+      <failure message="Check for PCUST_AP_KEY failed">Check for PCUST_AP_KEY failed
+
+Actual Value:    		
+
+Expected Value:  CN019902</failure>
+    </testCase>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_SEGMENT_LEVEL'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_STATUS_CODE'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_SEGMENT_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_AP_KEY'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_SEGMENT_LEVEL'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_STATUS_CODE'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_SEGMENT_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PORDR_GO_KEY'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_SEGMENT_LEVEL'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_STATUS_CODE'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_SEGMENT_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PCUST_GO_KEY'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_DBD_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_SEGMENT_LEVEL'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_STATUS_CODE'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_PROC_OPTIONS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_SEGMENT_NAME'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_KEY_LENGTH'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_NUM_SENS_SEGS'"/>
+    <testCase duration="0" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1' Test: Check for PPART_GO_KEY'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTIMS_Unit_Tests\Unit Test\Stubs\CWXTIMS_SALREPT_WRITE_01.stub">
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 1: Check for FILLER0"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 1: Check for RPT_SALES_ID"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 1: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 2: Check for FILLER0"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 2: Check for RPT_CUST_ID"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 2: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 3: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 3: Check for RPT_CUST_NAME">
+      <failure message="Check for RPT_CUST_NAME failed">Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  ACME COMPUTER PRODUCTS CORPORATION</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 3: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 4: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 4: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure message="Check for RPT_SALES_ACTIVITY_DUR_DISP failed">Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1092</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 4: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 4: Check for FILLER2"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES ID:
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		09
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		59
+
+Expected Value:  BILL JOHNSON</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  PURCHASING ANALYST</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 5: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0002
+
+Expected Value:  PHIL SMITHERS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 6: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 7: Check for RPT_BLANK_LINE">
+      <failure message="Check for RPT_BLANK_LINE failed">Check for RPT_BLANK_LINE failed
+
+Actual Value:    		ERROR IN CUST DB:  AI
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 8: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:  SALES ID:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 8: Check for RPT_SALES_ID">
+      <failure message="Check for RPT_SALES_ID failed">Check for RPT_SALES_ID failed
+
+Actual Value:    		
+
+Expected Value:  00959</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 8: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 9: Check for FILLER0"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 9: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		CN0088
+
+Expected Value:  CN0002</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 9: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 10: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 10: Check for RPT_CUST_NAME">
+      <failure message="Check for RPT_CUST_NAME failed">Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  PEACHTREE PERIPHERALS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 10: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 11: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 11: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure message="Check for RPT_SALES_ACTIVITY_DUR_DISP failed">Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  738</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 11: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 11: Check for FILLER2"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES ID:
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		14
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		31
+
+Expected Value:  BILL KAISER</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 12: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 13: Check for RPT_BLANK_LINE">
+      <failure message="Check for RPT_BLANK_LINE failed">Check for RPT_BLANK_LINE failed
+
+Actual Value:    		CUSTOMER NUMBER:   CN0033
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 14: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB:
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 14: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		AI
+
+Expected Value:  CN0088</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 14: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 15: Check for RPT_BLANK_LINE"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 16: Check for FILLER0"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 16: Check for RPT_SALES_ID">
+      <failure message="Check for RPT_SALES_ID failed">Check for RPT_SALES_ID failed
+
+Actual Value:    		02010
+
+Expected Value:  01431</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 16: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 17: Check for FILLER0"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 17: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		CN0001
+
+Expected Value:  CN0033</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 17: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 18: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 18: Check for RPT_CUST_NAME">
+      <failure message="Check for RPT_CUST_NAME failed">Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  COMPUTER SPECIALTIES</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 18: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 19: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 19: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure message="Check for RPT_SALES_ACTIVITY_DUR_DISP failed">Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1106</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 19: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 19: Check for FILLER2"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  1</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0055
+
+Expected Value:  JEFF LINCOLN</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  STOCK MANAGER</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 20: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		T
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		DB:  AI
+
+Expected Value:  PERRY RUSTIN</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  STORES CLERK</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 21: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 22: Check for RPT_BLANK_LINE"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 23: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER NU
+
+Expected Value:  SALES ID:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 23: Check for RPT_SALES_ID">
+      <failure message="Check for RPT_SALES_ID failed">Check for RPT_SALES_ID failed
+
+Actual Value:    		MBER:
+
+Expected Value:  02010</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 23: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		CN0099
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 24: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB:
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 24: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		AI
+
+Expected Value:  CN0001</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 24: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 25: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 25: Check for RPT_CUST_NAME">
+      <failure message="Check for RPT_CUST_NAME failed">Check for RPT_CUST_NAME failed
+
+Actual Value:    		
+
+Expected Value:  ACME COMPUTER PRODUCTS CORPORATION</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 25: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 26: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  0
+
+Expected Value:    ACTIVITY:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 26: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure message="Check for RPT_SALES_ACTIVITY_DUR_DISP failed">Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		2334
+
+Expected Value:  1092</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 26: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 26: Check for FILLER2"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  1</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0199
+
+Expected Value:  BILL JOHNSON</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  PURCHASING ANALYST</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 27: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		ERROR IN
+
+Expected Value:   CONTACT</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for RPT_CONTACT_COUNT_DISP">
+      <failure message="Check for RPT_CONTACT_COUNT_DISP failed">Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		T
+
+Expected Value:  :</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for RPT_SA_NAME">
+      <failure message="Check for RPT_SA_NAME failed">Check for RPT_SA_NAME failed
+
+Actual Value:    		DB:  AI
+
+Expected Value:  PHIL SMITHERS</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for FILLER2">
+      <failure message="Check for FILLER2 failed">Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for RPT_SA_TITLE">
+      <failure message="Check for RPT_SA_TITLE failed">Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 28: Check for FILLER3"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 29: Check for RPT_BLANK_LINE"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 30: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  03215
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 30: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		
+
+Expected Value:  CN0055</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 30: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 31: Check for RPT_BLANK_LINE">
+      <failure message="Check for RPT_BLANK_LINE failed">Check for RPT_BLANK_LINE failed
+
+Actual Value:    		SALES ID:  04147
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 32: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  05213
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 32: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		
+
+Expected Value:  CN0099</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 32: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 33: Check for RPT_BLANK_LINE">
+      <failure message="Check for RPT_BLANK_LINE failed">Check for RPT_BLANK_LINE failed
+
+Actual Value:    		SALES ID:  06745
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 34: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:  SALES ID:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 34: Check for RPT_SALES_ID">
+      <failure message="Check for RPT_SALES_ID failed">Check for RPT_SALES_ID failed
+
+Actual Value:    		
+
+Expected Value:  02334</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 34: Check for FILLER1"/>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 35: Check for FILLER0">
+      <failure message="Check for FILLER0 failed">Check for FILLER0 failed
+
+Actual Value:    		SALES RECORDS PROCE
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 35: Check for RPT_CUST_ID">
+      <failure message="Check for RPT_CUST_ID failed">Check for RPT_CUST_ID failed
+
+Actual Value:    		SSED: 01
+
+Expected Value:  CN0199</failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 35: Check for FILLER1">
+      <failure message="Check for FILLER1 failed">Check for FILLER1 failed
+
+Actual Value:    		0
+
+Expected Value:  </failure>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 36: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 37: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 38: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 39: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 40: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 41: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 42: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 43: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 44: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 45: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+    <testCase duration="0" name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01 Record 46: Stub record incomplete">
+      <error message="Stub record has no output or output is empty."/>
+    </testCase>
+  </file>
+</testExecutions>

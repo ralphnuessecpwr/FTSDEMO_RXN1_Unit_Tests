@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 08:58:32-->
+<testsuites>
+  <testsuite errors="11" failures="91" name="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" tests="182">
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_SEGMENT_LEVEL"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_STATUS_CODE"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_SEGMENT_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_AP_KEY"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_SEGMENT_LEVEL">
+      <failure>Check for PCUST_AP_SEGMENT_LEVEL failed
+
+Actual Value:    		
+
+Expected Value:  00</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_STATUS_CODE">
+      <failure>Check for PCUST_AP_STATUS_CODE failed
+
+Actual Value:    		
+
+Expected Value:  GP</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_SEGMENT_NAME">
+      <failure>Check for PCUST_AP_SEGMENT_NAME failed
+
+Actual Value:    		HDAM
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_AP_KEY">
+      <failure>Check for PCUST_AP_KEY failed
+
+Actual Value:    		
+
+Expected Value:  CN019902</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_SEGMENT_LEVEL"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_STATUS_CODE"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_SEGMENT_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_AP_KEY"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_STATUS_CODE"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_SEGMENT_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PORDR_GO_KEY"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_STATUS_CODE"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_SEGMENT_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PCUST_GO_KEY"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_DBD_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_SEGMENT_LEVEL"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_STATUS_CODE"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_PROC_OPTIONS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_SEGMENT_NAME"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_KEY_LENGTH"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_NUM_SENS_SEGS"/>
+    <testcase classname="Project: 'CWXTIMS_Unit_Tests' Scenario: 'CWXTIMS_Scenario' Testcase: 'CWXTIMSCase1'" name="Check for PPART_GO_KEY"/>
+  </testsuite>
+  <testsuite name="Stub Assertions: CWXTIMS_SALREPT_WRITE_01">
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.0" name="Record 1: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.0" name="Record 1: Check for RPT_SALES_ID"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.0" name="Record 1: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.1" name="Record 2: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.1" name="Record 2: Check for RPT_CUST_ID"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.1" name="Record 2: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.2" name="Record 3: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.2" name="Record 3: Check for RPT_CUST_NAME">
+      <failure>Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  ACME COMPUTER PRODUCTS CORPORATION</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.2" name="Record 3: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.3" name="Record 4: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.3" name="Record 4: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure>Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1092</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.3" name="Record 4: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.3" name="Record 4: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES ID:
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		09
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		59
+
+Expected Value:  BILL JOHNSON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  PURCHASING ANALYST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.4" name="Record 5: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0002
+
+Expected Value:  PHIL SMITHERS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.5" name="Record 6: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.6" name="Record 7: Check for RPT_BLANK_LINE">
+      <failure>Check for RPT_BLANK_LINE failed
+
+Actual Value:    		ERROR IN CUST DB:  AI
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.7" name="Record 8: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:  SALES ID:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.7" name="Record 8: Check for RPT_SALES_ID">
+      <failure>Check for RPT_SALES_ID failed
+
+Actual Value:    		
+
+Expected Value:  00959</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.7" name="Record 8: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.8" name="Record 9: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.8" name="Record 9: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		CN0088
+
+Expected Value:  CN0002</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.8" name="Record 9: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.9" name="Record 10: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.9" name="Record 10: Check for RPT_CUST_NAME">
+      <failure>Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  PEACHTREE PERIPHERALS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.9" name="Record 10: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.10" name="Record 11: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.10" name="Record 11: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure>Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  738</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.10" name="Record 11: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.10" name="Record 11: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES ID:
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		14
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		31
+
+Expected Value:  BILL KAISER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.11" name="Record 12: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.12" name="Record 13: Check for RPT_BLANK_LINE">
+      <failure>Check for RPT_BLANK_LINE failed
+
+Actual Value:    		CUSTOMER NUMBER:   CN0033
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.13" name="Record 14: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB:
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.13" name="Record 14: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		AI
+
+Expected Value:  CN0088</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.13" name="Record 14: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.14" name="Record 15: Check for RPT_BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.15" name="Record 16: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.15" name="Record 16: Check for RPT_SALES_ID">
+      <failure>Check for RPT_SALES_ID failed
+
+Actual Value:    		02010
+
+Expected Value:  01431</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.15" name="Record 16: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.16" name="Record 17: Check for FILLER0"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.16" name="Record 17: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		CN0001
+
+Expected Value:  CN0033</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.16" name="Record 17: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.17" name="Record 18: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.17" name="Record 18: Check for RPT_CUST_NAME">
+      <failure>Check for RPT_CUST_NAME failed
+
+Actual Value:    		:  AI
+
+Expected Value:  COMPUTER SPECIALTIES</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.17" name="Record 18: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.18" name="Record 19: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:    ACTIVITY:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.18" name="Record 19: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure>Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		0
+
+Expected Value:  1106</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.18" name="Record 19: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.18" name="Record 19: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0055
+
+Expected Value:  JEFF LINCOLN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  STOCK MANAGER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.19" name="Record 20: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		T
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		DB:  AI
+
+Expected Value:  PERRY RUSTIN</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  STORES CLERK</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.20" name="Record 21: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.21" name="Record 22: Check for RPT_BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.22" name="Record 23: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER NU
+
+Expected Value:  SALES ID:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.22" name="Record 23: Check for RPT_SALES_ID">
+      <failure>Check for RPT_SALES_ID failed
+
+Actual Value:    		MBER:
+
+Expected Value:  02010</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.22" name="Record 23: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		CN0099
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.23" name="Record 24: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN CUST DB:
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.23" name="Record 24: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		AI
+
+Expected Value:  CN0001</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.23" name="Record 24: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.24" name="Record 25: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:   CUSTOMER NAME:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.24" name="Record 25: Check for RPT_CUST_NAME">
+      <failure>Check for RPT_CUST_NAME failed
+
+Actual Value:    		
+
+Expected Value:  ACME COMPUTER PRODUCTS CORPORATION</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.24" name="Record 25: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.25" name="Record 26: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  0
+
+Expected Value:    ACTIVITY:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.25" name="Record 26: Check for RPT_SALES_ACTIVITY_DUR_DISP">
+      <failure>Check for RPT_SALES_ACTIVITY_DUR_DISP failed
+
+Actual Value:    		2334
+
+Expected Value:  1092</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.25" name="Record 26: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		
+
+Expected Value:   DAYS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.25" name="Record 26: Check for FILLER2"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		CUSTOMER
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  1</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		BE
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		R:   CN0199
+
+Expected Value:  BILL JOHNSON</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  PURCHASING ANALYST</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.26" name="Record 27: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		ERROR IN
+
+Expected Value:   CONTACT</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for RPT_CONTACT_COUNT_DISP">
+      <failure>Check for RPT_CONTACT_COUNT_DISP failed
+
+Actual Value:    		
+
+Expected Value:  2</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		T
+
+Expected Value:  :</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for RPT_SA_NAME">
+      <failure>Check for RPT_SA_NAME failed
+
+Actual Value:    		DB:  AI
+
+Expected Value:  PHIL SMITHERS</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for FILLER2">
+      <failure>Check for FILLER2 failed
+
+Actual Value:    		
+
+Expected Value:  ,</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for RPT_SA_TITLE">
+      <failure>Check for RPT_SA_TITLE failed
+
+Actual Value:    		
+
+Expected Value:  BUYER</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.27" name="Record 28: Check for FILLER3"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.28" name="Record 29: Check for RPT_BLANK_LINE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.29" name="Record 30: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  03215
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.29" name="Record 30: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		
+
+Expected Value:  CN0055</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.29" name="Record 30: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.30" name="Record 31: Check for RPT_BLANK_LINE">
+      <failure>Check for RPT_BLANK_LINE failed
+
+Actual Value:    		SALES ID:  04147
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.31" name="Record 32: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES ID:  05213
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.31" name="Record 32: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		
+
+Expected Value:  CN0099</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.31" name="Record 32: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.32" name="Record 33: Check for RPT_BLANK_LINE">
+      <failure>Check for RPT_BLANK_LINE failed
+
+Actual Value:    		SALES ID:  06745
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.33" name="Record 34: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		
+
+Expected Value:  SALES ID:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.33" name="Record 34: Check for RPT_SALES_ID">
+      <failure>Check for RPT_SALES_ID failed
+
+Actual Value:    		
+
+Expected Value:  02334</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.33" name="Record 34: Check for FILLER1"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.34" name="Record 35: Check for FILLER0">
+      <failure>Check for FILLER0 failed
+
+Actual Value:    		SALES RECORDS PROCE
+
+Expected Value:  CUSTOMER NUMBER:</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.34" name="Record 35: Check for RPT_CUST_ID">
+      <failure>Check for RPT_CUST_ID failed
+
+Actual Value:    		SSED: 01
+
+Expected Value:  CN0199</failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.34" name="Record 35: Check for FILLER1">
+      <failure>Check for FILLER1 failed
+
+Actual Value:    		0
+
+Expected Value:  </failure>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.35" name="Record 36: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.36" name="Record 37: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.37" name="Record 38: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.38" name="Record 39: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.39" name="Record 40: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.40" name="Record 41: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.41" name="Record 42: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.42" name="Record 43: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.43" name="Record 44: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.44" name="Record 45: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+    <testcase classname="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub.45" name="Record 46: Stub record incomplete">
+      <error>Stub record has no output or output is empty.</error>
+    </testcase>
+  </testsuite>
+</testsuites>

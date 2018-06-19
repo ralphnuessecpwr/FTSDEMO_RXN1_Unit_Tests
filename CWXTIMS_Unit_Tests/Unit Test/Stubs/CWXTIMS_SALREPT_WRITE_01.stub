@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTIMS_SALREPT_WRITE_01.stub" stubtype="QSAM WRITE" target="SALREPT" token="20000">
+  <stub:description>Created: 19.06.2018 10:16:19</stub:description>
+  <stub:stubdata id="0" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F0F7F6F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'00765' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">00765</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0001' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0001</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C1C3D4C540C3D6D4D7E4E3C5D940D7D9D6C4E4C3E3E240C3D6D9D7D6D9C1E3C9D6D5404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" id="output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" id="output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" offset="16"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" id="output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" offset="56"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0">
+        <checkconditions:expression>' CUSTOMER NAME:' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CUSTOMER NAME:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME">
+        <checkconditions:expression>'ACME COMPUTER PRODUCTS CORPORATION' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">ACME COMPUTER PRODUCTS CORPORATION</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F0F9F240C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" id="output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" id="output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" id="output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" offset="18"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" id="output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" offset="23"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0">
+        <checkconditions:expression>'  ACTIVITY:' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">  ACTIVITY:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1092').compareTo(result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1092</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1">
+        <checkconditions:expression>' DAYS' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> DAYS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2">
+        <checkconditions:expression>'' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D1D6C8D5E2D6D54040404040404040404040404040404040406B40D7E4D9C3C8C1E2C9D5C740C1D5C1D3E8E2E340404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'BILL JOHNSON' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BILL JOHNSON</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'PURCHASING ANALYST' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PURCHASING ANALYST</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C8C9D340E2D4C9E3C8C5D9E240404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'PHIL SMITHERS' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PHIL SMITHERS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'BUYER' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BUYER</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output6.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output6.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F0F9F5F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'00959' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">00959</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output7.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F240404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0002' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0002</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output8.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40D7C5C1C3C8E3D9C5C540D7C5D9C9D7C8C5D9C1D3E240404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" id="output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" id="output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" offset="16"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" id="output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" offset="56"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0">
+        <checkconditions:expression>' CUSTOMER NAME:' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CUSTOMER NAME:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME">
+        <checkconditions:expression>'PEACHTREE PERIPHERALS' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PEACHTREE PERIPHERALS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output9.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A40404040F7F3F840C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" id="output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" id="output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" id="output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" offset="18"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" id="output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" offset="23"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0">
+        <checkconditions:expression>'  ACTIVITY:' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">  ACTIVITY:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('738').compareTo(result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">738</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1">
+        <checkconditions:expression>' DAYS' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> DAYS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output10.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2">
+        <checkconditions:expression>'' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D2C1C9E2C5D9404040404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'BILL KAISER' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BILL KAISER</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'BUYER' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BUYER</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output11.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output12.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output12.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F8F840404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0088' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0088</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output13.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="14" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output14.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output14.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="15" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F1F4F3F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'01431' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">01431</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output15.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F3F340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0033' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0033</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output16.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="17" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C3D6D4D7E4E3C5D940E2D7C5C3C9C1D3E3C9C5E24040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" id="output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" id="output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" offset="16"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" id="output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" offset="56"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0">
+        <checkconditions:expression>' CUSTOMER NAME:' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CUSTOMER NAME:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME">
+        <checkconditions:expression>'COMPUTER SPECIALTIES' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">COMPUTER SPECIALTIES</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output17.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="18" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F1F0F640C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" id="output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" id="output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" id="output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" offset="18"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" id="output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" offset="23"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0">
+        <checkconditions:expression>'  ACTIVITY:' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">  ACTIVITY:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1106').compareTo(result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1106</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1">
+        <checkconditions:expression>' DAYS' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> DAYS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output18.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2">
+        <checkconditions:expression>'' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="19" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40D1C5C6C640D3C9D5C3D6D3D54040404040404040404040404040404040406B40E2E3D6C3D240D4C1D5C1C7C5D9404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'JEFF LINCOLN' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">JEFF LINCOLN</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'STOCK MANAGER' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">STOCK MANAGER</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output19.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="20" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C5D9D9E840D9E4E2E3C9D54040404040404040404040404040404040406B40E2E3D6D9C5E240C3D3C5D9D240404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'PERRY RUSTIN' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PERRY RUSTIN</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'STORES CLERK' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">STORES CLERK</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output20.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="21" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output21.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output21.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="22" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F2F0F1F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'02010' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02010</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output22.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="23" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F0F140404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0001' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0001</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output23.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="24" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A40C1C3D4C540C3D6D4D7E4E3C5D940D7D9D6C4E4C3E3E240C3D6D9D7D6D9C1E3C9D6D5404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" id="output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" id="output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" offset="16"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" id="output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" offset="56"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0">
+        <checkconditions:expression>' CUSTOMER NAME:' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CUSTOMER NAME:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME">
+        <checkconditions:expression>'ACME COMPUTER PRODUCTS CORPORATION' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">ACME COMPUTER PRODUCTS CORPORATION</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output24.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="25" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040F1F0F9F240C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" id="output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" id="output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" id="output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" offset="18"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" id="output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" offset="23"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0">
+        <checkconditions:expression>'  ACTIVITY:' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">  ACTIVITY:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1092').compareTo(result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1092</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1">
+        <checkconditions:expression>' DAYS' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> DAYS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output25.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2">
+        <checkconditions:expression>'' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="26" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F17A40C2C9D3D340D1D6C8D5E2D6D54040404040404040404040404040404040406B40D7E4D9C3C8C1E2C9D5C740C1D5C1D3E8E2E340404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'BILL JOHNSON' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BILL JOHNSON</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'PURCHASING ANALYST' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PURCHASING ANALYST</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output26.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="27" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CONTACT_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC" id="arg0.RPT_CONTACT_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3D6D5E3C1C3E3404040F27A40D7C8C9D340E2D4C9E3C8C5D9E240404040404040404040404040404040406B40C2E4E8C5D94040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP" offset="9"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME" offset="14"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2" offset="44"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE" offset="46"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CONTACT-REC.listructure#RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" id="output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3" offset="76"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0">
+        <checkconditions:expression>' CONTACT' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CONTACT</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_CONTACT_COUNT_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1">
+        <checkconditions:expression>':' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME">
+        <checkconditions:expression>'PHIL SMITHERS' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">PHIL SMITHERS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2">
+        <checkconditions:expression>',' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">,</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE">
+        <checkconditions:expression>'BUYER' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.RPT_SA_TITLE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">BUYER</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output27.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3">
+        <checkconditions:expression>'' eq result.arg0.RPT_CONTACT_REC.RPT_CONTACT_REC.FILLER3</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="28" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output28.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output28.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="29" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F5F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0055' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0055</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output29.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="30" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output30.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output30.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="31" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F0F9F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0099' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0099</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output31.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="32" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output32.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output32.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="33" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F2F3F3F440404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'02334' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02334</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output33.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="34" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC" id="arg0.RPT_CUST_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5E4D4C2C5D97A404040C3D5F0F1F9F940404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" id="output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" id="output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-ID-REC.listructure#RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" id="output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1" offset="27"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NUMBER:' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NUMBER:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID">
+        <checkconditions:expression>'CN0199' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.RPT_CUST_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0199</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output34.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_ID_REC.RPT_CUST_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="35" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NOT_FOUND_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NOT_FOUND_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#RPT_CUST_NOT_FOUND_REC" id="arg0.RPT_CUST_NOT_FOUND_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C3E4E2E3D6D4C5D940D5D6E340C6D6E4D5C47A40C3D5F0F1F9F9404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER0" id="output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.RPT_CUST_SSA_KEY" id="output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.RPT_CUST_SSA_KEY" offset="20"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NOT-FOUND-REC.listructure#RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER1" id="output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER1" offset="26"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER0">
+        <checkconditions:expression>'CUSTOMER NOT FOUND:' eq result.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CUSTOMER NOT FOUND:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.RPT_CUST_SSA_KEY">
+        <checkconditions:expression>'CN0199' eq result.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.RPT_CUST_SSA_KEY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">CN0199</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output35.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NOT_FOUND_REC.RPT_CUST_NOT_FOUND_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="36" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_CUST_NAME_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC" id="arg0.RPT_CUST_NAME_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">40C3E4E2E3D6D4C5D940D5C1D4C57A4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" id="output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" id="output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME" offset="16"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-CUST-NAME-REC.listructure#RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" id="output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1" offset="56"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0">
+        <checkconditions:expression>' CUSTOMER NAME:' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> CUSTOMER NAME:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.RPT_CUST_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output36.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_CUST_NAME_REC.RPT_CUST_NAME_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="37" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ACTIVITY_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC" id="arg0.RPT_ACTIVITY_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">4040C1C3E3C9E5C9E3E87A404040404040F040C4C1E8E2404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" id="output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" id="output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP" offset="12"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" id="output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1" offset="18"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ACTIVITY-REC.listructure#RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" id="output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2" offset="23"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0">
+        <checkconditions:expression>'  ACTIVITY:' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">  ACTIVITY:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.RPT_SALES_ACTIVITY_DUR_DISP) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1">
+        <checkconditions:expression>' DAYS' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> DAYS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output37.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2">
+        <checkconditions:expression>'' eq result.arg0.RPT_ACTIVITY_REC.RPT_ACTIVITY_REC.FILLER2</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="38" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_ERROR_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_ERROR_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#RPT_ERROR_REC" id="arg0.RPT_ERROR_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">C5D9D9D6D940C9D540C3E4E2E340C4C27A4040C7D74040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#RPT_ERROR_REC.RPT_ERROR_REC.FILLER0" id="output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#RPT_ERROR_REC.RPT_ERROR_REC.RPT_ERROR_STATUS_CODE" id="output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.RPT_ERROR_STATUS_CODE" offset="19"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-ERROR-REC.listructure#RPT_ERROR_REC.RPT_ERROR_REC.FILLER1" id="output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER1" offset="21"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER0">
+        <checkconditions:expression>'ERROR IN CUST DB:' eq result.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">ERROR IN CUST DB:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.RPT_ERROR_STATUS_CODE">
+        <checkconditions:expression>'GP' eq result.arg0.RPT_ERROR_REC.RPT_ERROR_REC.RPT_ERROR_STATUS_CODE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">GP</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output38.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_ERROR_REC.RPT_ERROR_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="39" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output39.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output39.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="40" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F3F2F1F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'03215' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">03215</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output40.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="41" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F4F1F4F740404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'04147' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">04147</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output41.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="42" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F5F2F1F340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'05213' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">05213</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output42.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="43" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_SALES_ID_REC.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC" id="arg0.RPT_SALES_ID_REC">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240C9C47A4040F0F6F7F4F540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" id="output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" id="output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID" offset="11"/>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-SALES-ID-REC.listructure#RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" id="output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1" offset="19"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0">
+        <checkconditions:expression>'SALES ID:' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES ID:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID">
+        <checkconditions:expression>'06745' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.RPT_SALES_ID</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">06745</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output43.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1">
+        <checkconditions:expression>'' eq result.arg0.RPT_SALES_ID_REC.RPT_SALES_ID_REC.FILLER1</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="44" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE" id="arg0.RPT_BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-BLANK-LINE.listructure#RPT_BLANK_LINE.RPT_BLANK_LINE" id="output44.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output44.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE">
+        <checkconditions:expression>'' eq result.arg0.RPT_BLANK_LINE.RPT_BLANK_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+  <stub:stubdata id="45" name="SALREPT">
+    <stub:interface>../Interfaces/CWXTIMS_SALREPT_RPT_TOTAL_LINE.interface#Unit%20Test/Interfaces/CWXTIMS_SALREPT_RPT_TOTAL_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#Unit%20Test/Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#RPT_TOTAL_LINE" id="arg0.RPT_TOTAL_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D3C5E240D9C5C3D6D9C4E240D7D9D6C3C5E2E2C5C47A40F0F1F040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#RPT_TOTAL_LINE.RPT_TOTAL_LINE.FILLER0" id="output45.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.FILLER0" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWXTIMS_SALREPT_RPT-TOTAL-LINE.listructure#RPT_TOTAL_LINE.RPT_TOTAL_LINE.RPT_RECORDS_READ" id="output45.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.RPT_RECORDS_READ" offset="25"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output45.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.FILLER0">
+        <checkconditions:expression>'SALES RECORDS PROCESSED:' eq result.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.FILLER0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">SALES RECORDS PROCESSED:</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output45.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.RPT_RECORDS_READ">
+        <checkconditions:expression>BigDecimalCreator.make('10').compareTo(result.arg0.RPT_TOTAL_LINE.RPT_TOTAL_LINE.RPT_RECORDS_READ) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">10</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+</stub:stub>
