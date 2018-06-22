@@ -1,455 +1,539 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 19.06.2018 08:58:32-->
+<?totaltestVersion 19.1.1.v20180612-1335_7?>
+<!--Topaz for Total Test 19.1.1.v20180612-1335_7 19.06.2018 10:58:42-->
 <testsuites>
-  <testsuite errors="0" failures="1" name="Project: 'CWXTCOB_Unit_Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" tests="436">
-    <testcase classname="Project: 'CWXTCOB_Unit_Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_LTH"/>
-    <testcase classname="Project: 'CWXTCOB_Unit_Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_DATA"/>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1" name="00002: Check for PARM_DATA"/>
   </testsuite>
-  <testsuite name="Stub Assertions: CWXTCOB_CWXTSUBC_01">
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.0" name="Record 1: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.0" name="Record 1: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.0" name="Record 1: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.1" name="Record 2: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.1" name="Record 2: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.1" name="Record 2: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.2" name="Record 3: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.2" name="Record 3: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.2" name="Record 3: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.3" name="Record 4: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.3" name="Record 4: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.3" name="Record 4: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.4" name="Record 5: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.4" name="Record 5: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.4" name="Record 5: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.5" name="Record 6: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.5" name="Record 6: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.5" name="Record 6: Check for CALC_COMMISSION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.6" name="Record 7: Check for EMP_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.6" name="Record 7: Check for CALC_SALES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.6" name="Record 7: Check for CALC_COMMISSION"/>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" tests="3">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00001: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
   </testsuite>
-  <testsuite name="Stub Assertions: CWXTCOB_CWXTDATE_02">
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.0" name="Record 1: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.0" name="Record 1: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.0" name="Record 1: Check for TODAYS_DATE">
-      <failure>Check for TODAYS_DATE failed
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00002: CWXTSUBC assertion" tests="6">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00002: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00002: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00002: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00003: CWXTSUBC assertion" tests="9">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00003: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00003: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00003: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00004: CWXTSUBC assertion" tests="12">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00004: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00004: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00004: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00005: CWXTSUBC assertion" tests="15">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00005: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00005: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00005: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00006: CWXTSUBC assertion" tests="18">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00006: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00006: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00006: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00007: CWXTSUBC assertion" tests="21">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00007: CWXTSUBC assertion" name="00001: EMP_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00007: CWXTSUBC assertion" name="00002: CALC_SALES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTSUBC_01.00007: CWXTSUBC assertion" name="00003: CALC_COMMISSION"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00001: CWXTDATE assertion" tests="3">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00001: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00001: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00001: CWXTDATE assertion" name="00003: TODAYS_DATE">
+      <failure>TODAYS_DATE failed
 
-Actual Value:    		180619
+Actual Value:    180619
 
 Expected Value:  180413</failure>
     </testcase>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.1" name="Record 2: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.2" name="Record 3: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.3" name="Record 4: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.4" name="Record 5: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.5" name="Record 6: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.6" name="Record 7: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.7" name="Record 8: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.8" name="Record 9: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.9" name="Record 10: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.10" name="Record 11: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.11" name="Record 12: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.12" name="Record 13: Check for WA_EMP_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for END_OF_MONTH_SW"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for TODAYS_DATE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for WA_EMP_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for WA_EMP_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_02.stub.13" name="Record 14: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite name="Stub Assertions: CWXTCOB_RPTFILE_WRITE_01">
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.0" name="Record 1: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.1" name="Record 2: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.2" name="Record 3: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_RUN_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.3" name="Record 4: Check for EMP_PAGE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.4" name="Record 5: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.5" name="Record 6: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.6" name="Record 7: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER9"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER10"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER11"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER12"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER13"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER14"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER15"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER16"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.7" name="Record 8: Check for FILLER17"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.8" name="Record 9: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.9" name="Record 10: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.10" name="Record 11: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.11" name="Record 12: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.12" name="Record 13: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.13" name="Record 14: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.14" name="Record 15: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.15" name="Record 16: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.16" name="Record 17: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.17" name="Record 18: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.18" name="Record 19: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.19" name="Record 20: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.20" name="Record 21: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_NAME"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_REGION"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_TYPE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER3"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_MM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_SLASH1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_DD"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_SLASH2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_HIRE_YY"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER4"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER5"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_WAGES"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER6"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_OT"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER7"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_COMM"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for FILLER8"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.21" name="Record 22: Check for EMP_DTL_TOTAL"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.22" name="Record 23: Check for BLANK_LINE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER0"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER1"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for FILLER2"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub.23" name="Record 24: Check for EMP_GRAND_TOTAL"/>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" tests="9">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00002: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" tests="15">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00003: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" tests="21">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00004: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" tests="27">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00005: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" tests="33">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00006: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" tests="39">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00007: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" tests="45">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00008: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" tests="51">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00009: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" tests="57">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00010: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" tests="63">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00011: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" tests="69">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00012: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" tests="75">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00013: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" tests="81">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00001: END_OF_MONTH_SW"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00002: YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00003: TODAYS_DATE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00004: WA_EMP_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00005: WA_EMP_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_CWXTDATE_02.00014: CWXTDATE assertion" name="00006: WA_EMP_HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00001: RPTFILE assertion" tests="1">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00001: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00002: RPTFILE assertion" tests="2">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00002: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00003: RPTFILE assertion" tests="3">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00003: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" tests="15">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00002: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00003: Check for EMP_RUN_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00004: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00005: Check for EMP_RUN_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00006: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00007: Check for EMP_RUN_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00008: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00009: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00010: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00011: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00004: RPTFILE assertion" name="00012: Check for EMP_PAGE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00005: RPTFILE assertion" tests="16">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00005: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00006: RPTFILE assertion" tests="17">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00006: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" tests="22">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" name="00002: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" name="00003: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" name="00004: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00007: RPTFILE assertion" name="00005: Check for FILLER4"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" tests="40">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00002: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00003: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00004: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00005: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00006: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00007: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00008: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00009: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00010: Check for FILLER9"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00011: Check for FILLER10"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00012: Check for FILLER11"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00013: Check for FILLER12"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00014: Check for FILLER13"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00015: Check for FILLER14"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00016: Check for FILLER15"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00017: Check for FILLER16"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00008: RPTFILE assertion" name="00018: Check for FILLER17"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00009: RPTFILE assertion" tests="41">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00009: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" tests="63">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00010: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" tests="85">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00011: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" tests="107">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00012: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" tests="129">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00013: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" tests="151">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00014: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" tests="173">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00015: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" tests="195">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00016: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" tests="217">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00017: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" tests="239">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00018: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" tests="261">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00019: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" tests="283">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00020: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" tests="305">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00021: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" tests="327">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00003: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00005: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00006: Check for EMP_DTL_TYPE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00007: Check for FILLER3"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00008: Check for EMP_DTL_HIRE_MM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00009: Check for EMP_DTL_SLASH1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00010: Check for EMP_DTL_HIRE_DD"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00011: Check for EMP_DTL_SLASH2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00012: Check for EMP_DTL_HIRE_YY"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00013: Check for FILLER4"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00014: Check for EMP_DTL_YRS_OF_SERVICE"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00015: Check for FILLER5"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00017: Check for FILLER6"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00019: Check for FILLER7"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00021: Check for FILLER8"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00022: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00023: RPTFILE assertion" tests="328">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00023: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00024: RPTFILE assertion" tests="332">
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00024: RPTFILE assertion" name="00001: Check for FILLER0"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00024: RPTFILE assertion" name="00002: Check for FILLER1"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00024: RPTFILE assertion" name="00003: Check for FILLER2"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_WRITE_01.00024: RPTFILE assertion" name="00004: Check for EMP_GRAND_TOTAL"/>
   </testsuite>
 </testsuites>
