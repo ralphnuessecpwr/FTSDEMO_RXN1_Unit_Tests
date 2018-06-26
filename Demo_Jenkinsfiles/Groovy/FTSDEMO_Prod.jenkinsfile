@@ -275,6 +275,8 @@ node{
 
                 }
                 
+                println "Will regress and send mail"
+
                 mail bcc: '', body: 'Build $BUILD_TAG failed!', cc: '', from: '', replyTo: '', subject: 'Build failed', to: 'ralph.nuesse@compuware.com'
                 
                 error "Exiting Pipeline"
