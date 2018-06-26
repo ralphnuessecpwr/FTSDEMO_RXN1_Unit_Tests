@@ -277,7 +277,18 @@ node{
                 */
                 println "Will regress and send mail"
 
-                mail bcc: '', body: 'Build $BUILD_TAG failed!', cc: '', from: '', replyTo: '', subject: 'Build failed', to: 'ralph.nuesse@compuware.com'
+                def mailRecipients = "manoj.singh@compuware.com"
+                    
+                // Email
+                emailext subject: '$DEFAULT_SUBJECT',
+                            body: '$DEFAULT_CONTENT',
+                            //body: '$DEFAULT_CONTENT',
+                            replyTo: '$DEFAULT_REPLYTO',
+                            //attachmentsPattern: 'reports/*.zip',
+                            to: "${mailRecipients}"
+
+
+//                mail bcc: '', body: 'Build $BUILD_TAG failed!', cc: '', from: '', replyTo: '', subject: 'Build failed', to: 'ralph.nuesse@compuware.com'
                 
                 error "Exiting Pipeline"
 
