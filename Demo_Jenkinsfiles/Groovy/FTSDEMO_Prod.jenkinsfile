@@ -277,7 +277,7 @@ node{
                 */
                 println "Will regress and send mail"
 
-                def mailRecipients = "manoj.singh@compuware.com"
+                def mailRecipients = "ralph.nuesse@compuware.com"
                     
                 // Email
                 emailext subject: '$DEFAULT_SUBJECT',
