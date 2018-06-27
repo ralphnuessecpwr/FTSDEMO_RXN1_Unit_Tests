@@ -258,6 +258,7 @@ node{
 
                 ISPW_Parms = ISPW_Assignment_Parm + ISPW_Level_Parm + ISPW_Runtime_Config_Parm// + ISPW_Remain_Parms
                 
+                /*
                 try
                 {
                     ispwOperation consoleLogResponseBody: true,
@@ -270,6 +271,9 @@ node{
                 {
 
                 }
+                */
+                
+                println "Will abort the pipeline"
 
                 def mailRecipients = "ralph.nuesse@compuware.com"
                     
