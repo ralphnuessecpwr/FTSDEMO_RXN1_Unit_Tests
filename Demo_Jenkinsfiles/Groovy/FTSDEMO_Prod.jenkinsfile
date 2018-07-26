@@ -275,7 +275,7 @@ node{
 
                 }
 
-                println "Will regress"
+                println "Will regress Assigment"
 /*
                 def mailRecipients = "ralph.nuesse@compuware.com"
                     
