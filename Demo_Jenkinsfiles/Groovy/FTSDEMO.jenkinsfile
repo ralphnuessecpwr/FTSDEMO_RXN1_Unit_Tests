@@ -90,12 +90,14 @@ node{
 
     stage("Download Source Code")
     {
+
         checkout(changelog: false, poll: false, 
             scm: [$class: 'IspwConfiguration', 
                 componentType: 'COB, COPY', 
                 connectionId: "${HCI_Conn_ID}", 
                 credentialsId: "${HCI_Token}", 
                 folderName: '', 
+                ispwDownloadAll: false, 
                 levelOption: '1', 
                 serverApplication: "${ISPW_Application}", 
                 serverConfig: "${ISPW_RuntimeConfig}", 
