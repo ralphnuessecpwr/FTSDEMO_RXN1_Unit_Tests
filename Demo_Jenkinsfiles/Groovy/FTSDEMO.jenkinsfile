@@ -97,7 +97,7 @@ node{
                 connectionId: "${HCI_Conn_ID}", 
                 credentialsId: "${HCI_Token}", 
                 folderName: '', 
-                ispwDownloadAll: false, 
+                ispwDownloadAll: true, 
                 levelOption: '1', 
                 serverApplication: "${ISPW_Application}", 
                 serverConfig: "${ISPW_RuntimeConfig}", 
