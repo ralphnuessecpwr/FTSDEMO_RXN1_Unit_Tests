@@ -215,6 +215,7 @@ node{
         def scannerHome = tool "${SQ_Scanner_Name}";
         
         def SonarTestDirs = ''
+        def SonarExcludedDirs = ''
         def SonarTestExecutionReportPaths = ''
 
         TTTListOfScenarios.each
@@ -233,6 +234,16 @@ node{
             {
                 SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
             }
+
+            if(SonarExcludedDirs == '') 
+            {
+                SonarExcludedDirs = SonarTestDirs + './' + TTTProjectName
+            }
+            else
+            {
+                SonarExcludedDirs = SonarTestDirs + ',./' + TTTProjectName
+            }
+
 
             if(SonarTestExecutionReportPaths == '')
             {
