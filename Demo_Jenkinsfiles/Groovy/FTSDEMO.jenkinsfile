@@ -219,22 +219,28 @@ node{
 
         TTTListOfScenarios.each
         {
+
+            def TTTProjectName = it.path.trim().split("\\\\")[0] 
+            def TTTScenarioName = it.name.trim().split("\\.")[0]
+
+            bat "del ./${TTTProjectName}/.project"
+
             if(SonarTestDirs == '') 
             {
-                SonarTestDirs = SonarTestDirs + './' + it.path.trim().split("\\\\")[0]
+                SonarTestDirs = SonarTestDirs + './' + TTTProjectName
             }
             else
             {
-                SonarTestDirs = SonarTestDirs + ',./' + it.path.trim().split("\\\\")[0]
+                SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
             }
 
             if(SonarTestExecutionReportPaths == '')
             {
-                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + 'TTTSonar/' + it.name.trim().split("\\.")[0] + '.xml'
+                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + 'TTTSonar/' + TTTScenarioName + '.xml'
             }
             else
             {
-                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + ',TTTSonar/' + it.name.trim().split("\\.")[0] + '.xml'
+                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + ',TTTSonar/' + TTTScenarioName + '.xml'
             }
         }
 
