@@ -252,11 +252,6 @@ node{
             }
         }
 
-        SonarTestDirsNames.each
-        {
-            println.it
-        }
-
         withSonarQubeEnv("${SQ_Server_Name}") 
         {
             // Run SonarQube Scanner 
