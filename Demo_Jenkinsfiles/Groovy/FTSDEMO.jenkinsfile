@@ -228,7 +228,7 @@ node{
                 SonarTestDirs = SonarTestDirs + ',./' + it.path.trim().split("\\\\")[0]
             }
 
-            if(SonarTestExecutionReportPaths = '')
+            if(SonarTestExecutionReportPaths == '')
             {
                 SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + 'TTTSonar/' + it.name.trim().split("\\.")[0] + '.xml'
             }
