@@ -214,6 +214,7 @@ node{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool "${SQ_Scanner_Name}";
         
+        def SonarTestDirsNames = []
         def SonarTestDirs = ''
         def SonarExcludedDirs = ''
         def SonarTestExecutionReportPaths = ''
@@ -224,26 +225,21 @@ node{
             def TTTProjectName = it.path.trim().split("\\\\")[0] 
             def TTTScenarioName = it.name.trim().split("\\.")[0]
 
-            bat "del .\\${TTTProjectName}\\.project"
+            SonarTestDirsNames.add(TTTProjectName)
 
-            if(SonarTestDirs == '') 
-            {
-                SonarTestDirs = SonarTestDirs + './' + TTTProjectName
-            }
-            else
-            {
-                SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
-            }
+            //bat "del .\\${TTTProjectName}\\.project"
 
-            if(SonarExcludedDirs == '') 
+            if(SonarTestDirsNames.contains(TTTProjectName)==false)
             {
-                SonarExcludedDirs = SonarExcludedDirs + './**/' + TTTProjectName + '/**'
+                if(SonarTestDirs == '') 
+                {
+                    SonarTestDirs = SonarTestDirs + './' + TTTProjectName
+                }
+                else
+                {
+                    SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
+                }
             }
-            else
-            {
-                SonarExcludedDirs = SonarExcludedDirs + ',./**/' + TTTProjectName + '/**'
-            }
-
 
             if(SonarTestExecutionReportPaths == '')
             {
