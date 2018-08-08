@@ -214,22 +214,40 @@ node{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool "${SQ_Scanner_Name}";
         
+        def SonarTestDirs = ''
+        def SonarTestExecutionReportPaths = ''
+
         TTTListOfScenarios.each
         {
-            def TTTScenarioPath = it.path
-            def TTTProjectName = it.path.trim().split("\\\\")[0] 
-            def TTTScenarioName = it.name.trim().split("\\.")[0]
-
-            withSonarQubeEnv("${SQ_Server_Name}") 
+            if(SonarTestDirs == '') 
             {
-                // Run SonarQube Scanner 
-                def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
-                def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
-                def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
-                def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
-                def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
-                bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf
+                SonarTestDirs = SonarTestDirs + './' + it.path.trim().split("\\\\")[0]
             }
+            else
+            {
+                SonarTestDirs = SonarTestDirs + ',./' + it.path.trim().split("\\\\")[0]
+            }
+
+            if(SonarTestExecutionReportPaths = '')
+            {
+                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + 'TTTSonar/' + it.name.trim().split("\\.")[0] + '.xml'
+            }
+            else
+            {
+                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + ',TTTSonar/' + it.name.trim().split("\\.")[0] + '.xml'
+            }
+        }
+
+        withSonarQubeEnv("${SQ_Server_Name}") 
+        {
+            // Run SonarQube Scanner 
+            //def SQ_Tests                = " -Dsonar.tests=./${TTTProjectName} -Dsonar.testExecutionReportPaths=TTTSonar/${TTTScenarioName}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+            def SQ_Tests                = " -Dsonar.tests=${SonarTestDirs} -Dsonar.testExecutionReportPaths=${SonarTestExecutionReportPaths} -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+            def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
+            def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
+            def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
+            def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
+            bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf
         }
     }
 
