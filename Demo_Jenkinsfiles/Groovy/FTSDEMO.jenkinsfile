@@ -237,11 +237,11 @@ node{
 
             if(SonarExcludedDirs == '') 
             {
-                SonarExcludedDirs = SonarExcludedDirs + '**/' + TTTProjectName + '/**'
+                SonarExcludedDirs = SonarExcludedDirs + './**/' + TTTProjectName + '/**'
             }
             else
             {
-                SonarExcludedDirs = SonarExcludedDirs + ',**/' + TTTProjectName + '/**'
+                SonarExcludedDirs = SonarExcludedDirs + ',./**/' + TTTProjectName + '/**'
             }
 
 
