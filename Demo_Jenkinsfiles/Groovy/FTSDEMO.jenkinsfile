@@ -225,12 +225,13 @@ node{
             def TTTProjectName = it.path.trim().split("\\\\")[0] 
             def TTTScenarioName = it.name.trim().split("\\.")[0]
 
-            SonarTestDirsNames.add(TTTProjectName)
+            
 
             //bat "del .\\${TTTProjectName}\\.project"
-
+            
             if(SonarTestDirsNames.contains(TTTProjectName)==false)
             {
+                SonarTestDirsNames.add(TTTProjectName)
                 if(SonarTestDirs == '') 
                 {
                     SonarTestDirs = SonarTestDirs + './' + TTTProjectName
