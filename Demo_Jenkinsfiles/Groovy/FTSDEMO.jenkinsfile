@@ -88,6 +88,8 @@ node{
     println "Download Source Code from ISPW"
     println "******************************"
 
+    slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: 'Pipeline started', tokenCredentialId: 'Hddrxm0CES'
+
     stage("Download Source Code")
     {
 
@@ -264,7 +266,7 @@ node{
             bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf + SQ_Exclusions
         }
 
-        slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: '$DEFAULT_CONTENT', tokenCredentialId: 'Hddrxm0CES'
+        slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: 'Pipeline ended', tokenCredentialId: 'Hddrxm0CES'
     }
 /*
     // Check Quality Gate from SonarQube Scanner
