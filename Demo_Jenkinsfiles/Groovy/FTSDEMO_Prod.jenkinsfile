@@ -303,6 +303,15 @@ node{
                 println "Will Start XL Release"
                 println "**********************************************************"
 
+                // Email
+                emailext subject: '$DEFAULT_SUBJECT',
+                            body: '$DEFAULT_CONTENT',
+                            //body: '$DEFAULT_CONTENT',
+                            replyTo: '$DEFAULT_REPLYTO',
+                            //attachmentsPattern: 'reports/*.zip',
+                            to: "${mailRecipients}"
+
+
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
