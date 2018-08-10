@@ -187,7 +187,7 @@ node{
         }
 
         // Process the Total Test result files into Jenkins
-        junit allowEmptyResults: true, keepLongStdio: true, healthScaleFactor: 0.1, testResults: "TTTUnit/*.xml"
+        junit allowEmptyResults: true, keepLongStdio: true, healthScaleFactor: 0.0, testResults: "TTTUnit/*.xml"
     }
 
     // Download CoCo Results from Test Runs
