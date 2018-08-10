@@ -329,6 +329,8 @@ node{
                 println "Will Start XL Release"
                 println "**********************************************************"
 
+                slackSend '$DEFAULT_CONTENT'
+
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
