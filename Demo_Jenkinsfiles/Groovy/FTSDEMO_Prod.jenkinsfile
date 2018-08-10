@@ -359,8 +359,6 @@ node{
                 println "Will Start XL Release"
                 println "**********************************************************"
 
-                slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: '$DEFAULT_CONTENT', username: 'HDDRXM0'//, icon_emoji:":chicken:"
-
                 // Email
                 def mailRecipients = "ralph.nuesse@compuware.com"
                 
