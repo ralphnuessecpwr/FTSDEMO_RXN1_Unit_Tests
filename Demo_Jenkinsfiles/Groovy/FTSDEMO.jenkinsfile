@@ -263,8 +263,10 @@ node{
             def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
             bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf + SQ_Exclusions
         }
-    }
 
+        slackSend '$DEFAULT_CONTENT'
+    }
+/*
     // Check Quality Gate from SonarQube Scanner
     println "******************"
     println "Check Quality Gate"
@@ -304,7 +306,7 @@ node{
                 catch(IllegalStateException exception)
                 {
                 }
-                */
+                
                 
                 println "Will abort the pipeline"
 
@@ -329,8 +331,6 @@ node{
                 println "Will Start XL Release"
                 println "**********************************************************"
 
-                slackSend '$DEFAULT_CONTENT'
-
                 stage("Start Release")
                 {                    
                     xlrCreateRelease releaseTitle: 'Release for $BUILD_TAG', 
@@ -345,5 +345,6 @@ node{
 
             }
         }
-    }   
+    } 
+    */  
 }
