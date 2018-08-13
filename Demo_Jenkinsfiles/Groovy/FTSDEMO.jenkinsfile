@@ -218,7 +218,6 @@ node{
         
         def SonarTestDirsNames = []
         def SonarTestDirs = ''
-        def SonarExcludedDirs = ''
         def SonarTestExecutionReportPaths = ''
 
         // Build a comma separated list of 
@@ -259,16 +258,15 @@ node{
             // Run SonarQube Scanner 
             def SQ_Tests                = " -Dsonar.tests=${SonarTestDirs} -Dsonar.testExecutionReportPaths=${SonarTestExecutionReportPaths} -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
             def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
-            def SQ_Exclusions           = " -Dsonar.exclusion=${SonarExcludedDirs}"
             def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
             def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
             def SQ_Cobol_conf           = " -Dsonar.cobol.file.suffixes=cbl,testsuite,testscenario,stub -Dsonar.cobol.copy.suffixes=cpy -Dsonar.sourceEncoding=UTF-8"
-            bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf + SQ_Exclusions
+            bat "${scannerHome}/bin/sonar-scanner" + SQ_Tests + SQ_ProjectKey + SQ_Source + SQ_Copybook + SQ_Cobol_conf
         }
 
-        slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: 'Pipeline ended', tokenCredentialId: 'Hddrxm0CES'
+        //slackSend baseUrl: 'https://hooks.slack.com/services/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/', channel: '#ispwnotifications', message: 'Pipeline ended', tokenCredentialId: 'Hddrxm0CES'
     }
-/*
+
     // Check Quality Gate from SonarQube Scanner
     println "******************"
     println "Check Quality Gate"
@@ -308,7 +306,7 @@ node{
                 catch(IllegalStateException exception)
                 {
                 }
-                
+                */
                 
                 println "Will abort the pipeline"
 
@@ -348,5 +346,4 @@ node{
             }
         }
     } 
-    */  
 }
