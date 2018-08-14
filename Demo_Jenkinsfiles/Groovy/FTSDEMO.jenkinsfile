@@ -216,47 +216,61 @@ node{
         // Requires SonarQube Scanner 2.8+
         def scannerHome = tool "${SQ_Scanner_Name}";
         
-        def SonarTestDirsNames = []
-        def SonarTestDirs = ''
-        def SonarTestExecutionReportPaths = ''
+        //def SonarTestDirsNames = []
+        //def SonarTestDirs = ''
+        //def SonarTestExecutionReportPaths = ''
 
         // Build a comma separated list of 
         //    test directories passed, using -Dsonar.test parameter and
         //    test execution report paths, using -Dsonar.testExecutionReportPaths parameter
-        TTTListOfScenarios.each
-        {
+        //TTTListOfScenarios.each
+        //{
 
-            def TTTProjectName = it.path.trim().split("\\\\")[0] 
-            def TTTScenarioName = it.name.trim().split("\\.")[0]
+            //def TTTProjectName = it.path.trim().split("\\\\")[0] 
+            //def TTTScenarioName = it.name.trim().split("\\.")[0]
            
-            if(SonarTestDirsNames.contains(TTTProjectName)==false)
-            {
-                //    the first list must not contain duplicates, therefore we need additional logic
-                SonarTestDirsNames.add(TTTProjectName)
-                if(SonarTestDirs == '') 
-                {
-                    SonarTestDirs = SonarTestDirs + './' + TTTProjectName
-                }
-                else
-                {
-                    SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
-                }
-            }
+            //if(SonarTestDirsNames.contains(TTTProjectName)==false)
+            //{
+            //    //    the first list must not contain duplicates, therefore we need additional logic
+            //    SonarTestDirsNames.add(TTTProjectName)
+            //    if(SonarTestDirs == '') 
+            //    {
+            //        SonarTestDirs = SonarTestDirs + './' + TTTProjectName
+            //    }
+            //    else
+            //    {
+            //        SonarTestDirs = SonarTestDirs + ',./' + TTTProjectName
+            //    }
+            //}
 
-            if(SonarTestExecutionReportPaths == '')
-            {
+            //if(SonarTestExecutionReportPaths == '')
+            //{
                 SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + 'TTTSonar/' + TTTScenarioName + '.xml'
-            }
-            else
-            {
-                SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + ',TTTSonar/' + TTTScenarioName + '.xml'
-            }
+            //}
+            //else
+            //{
+            //    SonarTestExecutionReportPaths = SonarTestExecutionReportPaths + ',TTTSonar/' + TTTScenarioName + '.xml'
+            //}
+
+
+        //}
+
+        //Finds all of the TTT results files that will be submitted to SonarQube
+        def TTTListOfResults    = findFiles(glob: 'TTTSonar/*.xml')
+        def SQ_TestResult       = "-Dsonar.testExecutionReportPaths="
+
+        TTTListOfResults.each
+        {
+            // Get the full name of the testscenario file i.e. "name.testscenario"
+            def TTTResultName    = it.name     
+            // Build the list of Result Folder name; the list is comma separated, a superflous comma at the end of the list is ignored by SonarQube
+            SQ_TestResult = SQ_TestResult + "TTTSonar/" + TTTResultName + ','
         }
 
         withSonarQubeEnv("${SQ_Server_Name}") 
         {
             // Run SonarQube Scanner 
-            def SQ_Tests                = " -Dsonar.tests=${SonarTestDirs} -Dsonar.testExecutionReportPaths=${SonarTestExecutionReportPaths} -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+            def SQ_Tests                = " -Dsonar.tests=tests ${SQ_TestResult} -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
             def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
             def SQ_Source               = " -Dsonar.sources=${ISPW_Application}\\${MF_Source}"
             def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${ISPW_Application}\\${MF_Source}"
