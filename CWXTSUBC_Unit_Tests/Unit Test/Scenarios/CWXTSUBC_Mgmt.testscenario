@@ -296,8 +296,8 @@
           <checkconditions:expectation assert="=" type="number">28000.00</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for COMM_TOTAL failed" name="Check for COMM_TOTAL" refData="#input.arg2.COMM_TOTAL.COMM_TOTAL">
-          <checkconditions:expression>BigDecimalCreator.make('1120.00').compareTo(output.arg2.COMM_TOTAL.COMM_TOTAL) eq 0</checkconditions:expression>
-          <checkconditions:expectation assert="=" type="number">1120.00</checkconditions:expectation>
+          <checkconditions:expression>BigDecimalCreator.make('2000').compareTo(output.arg2.COMM_TOTAL.COMM_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">2000</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>
