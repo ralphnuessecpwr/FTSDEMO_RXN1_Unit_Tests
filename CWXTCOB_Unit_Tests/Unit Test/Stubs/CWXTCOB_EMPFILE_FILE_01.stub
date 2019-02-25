@@ -6,7 +6,7 @@
     <stub:input listructure="../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
         <properties:properties>
-          <properties:property name="value" type="string">F0F1F4F3F1E2F4E3C5C440D5C5E2E2D4C1D540404040D6D5C540C3D6D7D3C5E840D7D34040C2D6E2E3D6D54040D4C1F8F7F1F2F0404040400100000FF0F0F0F0F0F0F04040F7F9F0F1F3F04040404040</properties:property>
+          <properties:property name="value" type="string">F0F1F4F3F1E2F5E3C5C440D5C5E2E2D4C1D540404040D6D5C540C3D6D7D3C5E840D7D34040C2D6E2E3D6D54040D4C1F8F7F1F2F0404040400100000FF0F0F0F0F0F0F04040F7F9F0F1F3F04040404040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
