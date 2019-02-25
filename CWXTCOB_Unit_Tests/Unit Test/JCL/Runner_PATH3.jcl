@@ -1,5 +1,4 @@
 ${TOTALTEST_JOBCARD}
-/*JOBPARM S=CWC2
 //RUNNER EXEC PGM=TTTRUNNR
 //*
 //* You need to modify the following DD statements.
