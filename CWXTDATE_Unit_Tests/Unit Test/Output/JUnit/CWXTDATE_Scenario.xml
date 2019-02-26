@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 26.02.2019 14:14:26-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00002: Check for YRS_OF_SERVICE"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    0
+
+Expected Value:  = 37</failure>
+    </testcase>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    37
+
+Expected Value:  = 26</failure>
+    </testcase>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    26
+
+Expected Value:  = 29</failure>
+    </testcase>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    29
+
+Expected Value:  = 35</failure>
+    </testcase>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" tests="8">
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00001: Check for EOM_SW"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00002: Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    35
+
+Expected Value:  = 31</failure>
+    </testcase>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00003: Check for RUN_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00004: Check for RUN_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00005: Check for RUN_DD"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00006: Check for HIRE_YY"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00007: Check for HIRE_MM"/>
+    <testcase classname="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6" name="00008: Check for HIRE_DD"/>
+  </testsuite>
+</testsuites>
