@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 26.02.2019 10:16:57-->
 <testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/CWXTSUBC_Suite.testsuite">
-  <testsuite:testscenario>../Scenarios/CWXTSUBC_Sales.testscenario#Unit%20Test/Scenarios/CWXTSUBC_Sales.testscenario</testsuite:testscenario>
-  <testsuite:testscenario>../Scenarios/CWXTSUBC_Mgmt.testscenario#Unit%20Test/Scenarios/CWXTSUBC_Mgmt.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWXTSUBC_Mgmt_Scenario.testscenario#Unit%20Test/Scenarios/CWXTSUBC_Mgmt_Scenario.testscenario</testsuite:testscenario>
+  <testsuite:testscenario>../Scenarios/CWXTSUBC_Sales_Scenario.testscenario#Unit%20Test/Scenarios/CWXTSUBC_Sales_Scenario.testscenario</testsuite:testscenario>
 </testsuite:testsuite>

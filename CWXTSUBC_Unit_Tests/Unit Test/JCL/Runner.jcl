@@ -1,12 +1,5 @@
 ${TOTALTEST_JOBCARD}
-//*** SPECIFY JOBCARD IN TOTALTEST PREFERENCES TO SUBSTITUTE
-//***
-//*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
-//*** AS NOTIFY=&SYSUID and also a REGION=0M parameter
-//*
-//********************************************************************
-//* Execute Target Runner
-//********************************************************************
+/*JOBPARM S=CWC2
 //RUNNER EXEC PGM=TTTRUNNR
 //*
 //* You need to modify the following DD statements.
@@ -23,10 +16,12 @@ ${TOTALTEST_JOBCARD}
 //* loadlib containing the COBOL runtime(CEE.SCEERUN), otherwise 
 //* it can be removed.
 //*
-//STEPLIB DD DISP=SHR,DSN=CPWR.MLCXnnn.SLCXLOAD
-//*  where MLCXnnn is MLCX170 OR HIGHER
-//        DD DISP=SHR,DSN=<ADD LOADLIB CONTAINING COBOL TEST PROGRAM>
-//*       DD DISP=SHR,DSN=<COBOL RUNTIME LOADLIB>
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
+//         DD   DSN=CEE.SCEERUN,DISP=SHR
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.DEV1.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.QA1.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.STG.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.PRD.LOAD
 //*
 //TRPARM DD *
 *

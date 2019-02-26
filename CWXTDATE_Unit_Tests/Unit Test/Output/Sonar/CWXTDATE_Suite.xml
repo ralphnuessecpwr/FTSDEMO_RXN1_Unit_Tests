@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 25.02.2019 15:55:24-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00002: Check for YRS_OF_SERVICE"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00001: CWXTDATECase1.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    0
+
+Expected Value:  = 37</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00002: CWXTDATECase2.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    37
+
+Expected Value:  = 26</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00003: CWXTDATECase3.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    26
+
+Expected Value:  = 29</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00004: CWXTDATECase4.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    29
+
+Expected Value:  = 35</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00005: CWXTDATECase5.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    35
+
+Expected Value:  = 31</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario.00006: CWXTDATECase6.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario2.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    0
+
+Expected Value:  = 37</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00007: CWXTDATECase2.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario2.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    37
+
+Expected Value:  = 26</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00008: CWXTDATECase3.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario2.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    26
+
+Expected Value:  = 29</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00009: CWXTDATECase4.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario2.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    29
+
+Expected Value:  = 35</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00010: CWXTDATECase5.00008: Check for HIRE_DD"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTDATE_Unit_Tests\Unit Test\Scenarios\CWXTDATE_Scenario2.testscenario">
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00001: Check for EOM_SW"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00002: Check for YRS_OF_SERVICE">
+      <failure message="Check for YRS_OF_SERVICE failed">Check for YRS_OF_SERVICE failed
+
+Actual Value:    35
+
+Expected Value:  = 31</failure>
+    </testCase>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00003: Check for RUN_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00004: Check for RUN_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00005: Check for RUN_DD"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00006: Check for HIRE_YY"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00007: Check for HIRE_MM"/>
+    <testCase duration="0" name="CWXTDATE_Unit_Tests.CWXTDATE_Scenario2.00011: CWXTDATECase6.00008: Check for HIRE_DD"/>
+  </file>
+</testExecutions>

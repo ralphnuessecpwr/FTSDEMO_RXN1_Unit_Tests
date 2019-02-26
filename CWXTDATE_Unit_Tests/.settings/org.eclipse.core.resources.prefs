@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-encoding//Unit\ Test/Structures/CWXTDATE_EOM-SW.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWXTDATE_HIRE-DATE.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWXTDATE_RUN-DATE.listructure=UTF-8
-encoding//Unit\ Test/Structures/CWXTDATE_YRS-OF-SERVICE.listructure=UTF-8
+encoding//Unit\ Test/Structures/CWXTCOB_EOM-SW.listructure=UTF-8
+encoding//Unit\ Test/Structures/CWXTCOB_HIRE-DATE.listructure=UTF-8
+encoding//Unit\ Test/Structures/CWXTCOB_RUN-DATE.listructure=UTF-8
+encoding//Unit\ Test/Structures/CWXTCOB_YRS-OF-SERVICE.listructure=UTF-8
 encoding/<project>=UTF-8

@@ -1,12 +1,4 @@
 ${TOTALTEST_JOBCARD}
-//*** SPECIFY JOBCARD IN TOTALTEST PREFERENCES TO SUBSTITUTE
-//***
-//*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
-//*** AS NOTIFY=&SYSUID and also a REGION=0M parameter
-//*
-//********************************************************************
-//* Execute Target Runner
-//********************************************************************
 //RUNNER EXEC PGM=TTTRUNNR
 //*
 //* You need to modify the following DD statements.
@@ -23,13 +15,12 @@ ${TOTALTEST_JOBCARD}
 //* loadlib containing the COBOL runtime(CEE.SCEERUN), otherwise 
 //* it can be removed.
 //*
-//STEPLIB DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
-//        DD DISP=SHR,DSN=HDDRXM0.DEMO.LOAD.PDSE
-//        DD DISP=SHR,DSN=SALESSUP.RXN1.DEV1.LOAD
-//        DD DISP=SHR,DSN=SALESSUP.RXN1.QA1.LOAD
-//        DD DISP=SHR,DSN=SALESSUP.RXN1.STG.LOAD
-//        DD DISP=SHR,DSN=SALESSUP.RXN1.PRD.LOAD
-//*       DD DISP=SHR,DSN=<COBOL RUNTIME LOADLIB>
+//STEPLIB  DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
+//         DD   DSN=CEE.SCEERUN,DISP=SHR
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.DEV1.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.QA1.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.STG.LOAD
+//         DD   DISP=SHR,DSN=SALESSUP.RXN1.PRD.LOAD
 //*
 //TRPARM DD *
 *
@@ -48,3 +39,4 @@ DEBUG(OFF)
 //*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR
 //SYSPRINT DD SYSOUT=*
 //*
+
