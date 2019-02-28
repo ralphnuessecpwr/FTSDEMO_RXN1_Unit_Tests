@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 27.02.2019 13:10:58-->
+<testsuites>
+  <testsuite errors="0" failures="2" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00001: CWXTSUBCCase8" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00001: CWXTSUBCCase8" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00001: CWXTSUBCCase8" name="00002: Check for SALES_AMOUNT">
+      <failure>Check for SALES_AMOUNT failed
+
+Actual Value:    100000.00
+
+Expected Value:  = 600000.00</failure>
+    </testcase>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00001: CWXTSUBCCase8" name="00003: Check for COMM_TOTAL">
+      <failure>Check for COMM_TOTAL failed
+
+Actual Value:    2000.00
+
+Expected Value:  = 3000.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00002: CWXTSUBCCase9" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00002: CWXTSUBCCase9" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00002: CWXTSUBCCase9" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00002: CWXTSUBCCase9" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00003: CWXTSUBCCase10" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00003: CWXTSUBCCase10" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00003: CWXTSUBCCase10" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00003: CWXTSUBCCase10" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00004: CWXTSUBCCase11" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00004: CWXTSUBCCase11" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00004: CWXTSUBCCase11" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00004: CWXTSUBCCase11" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00005: CWXTSUBCCase12" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00005: CWXTSUBCCase12" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00005: CWXTSUBCCase12" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00005: CWXTSUBCCase12" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00006: CWXTSUBCCase13" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00006: CWXTSUBCCase13" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00006: CWXTSUBCCase13" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00006: CWXTSUBCCase13" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="2" name="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00007: CWXTSUBCCase14" tests="3">
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00007: CWXTSUBCCase14" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00007: CWXTSUBCCase14" name="00002: Check for SALES_AMOUNT">
+      <failure>Check for SALES_AMOUNT failed
+
+Actual Value:    600000.00
+
+Expected Value:  = 150000.00</failure>
+    </testcase>
+    <testcase classname="CWXTSUBC_Unit_Tests.CWXTSUBC_Mgmt_Scenario.00007: CWXTSUBCCase14" name="00003: Check for COMM_TOTAL">
+      <failure>Check for COMM_TOTAL failed
+
+Actual Value:    24000.00
+
+Expected Value:  = 3750.00</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
