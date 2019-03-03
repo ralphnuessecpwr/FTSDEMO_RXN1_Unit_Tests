@@ -3,13 +3,15 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-02-25 11:41.59��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-03 05:56.02��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_
  STTR014I Processing test scenario CWXTCOB_
  STTR028I Processing test case CWXTCOBC
  STTR006I Executing target CWXTCOB#
- STTR008I All targets successfully executed
+ CEE3207S The system detected a data exception (System Completion Code=0C7).
+          From compile unit CWXTCOB at entry point CWXTCOB at compile unit offset +0000067C at entry offset +0000067C
+          at address 3869367C.
 
 ***************** Output from TTOUT *****************
 
@@ -41,8 +43,8 @@
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   IDRU: Creation Date = 2019056, Length = 40
-   data = c3e7c3e6e7e3c3d6c24009394bdb7a1802e85be019deaf0c5dec030b190000000000000000000000
-   program = CWXTCOB , ddio(27) = SALESSUP.RXN1.DEV1.LOAD.SSD
+   data = c3e7c3e6e7e3c3d6c24009394bdb7a1802e85be06a8401ef06e079bc000000000000000000000000
+   program = CWXTCOB , ddio(26) = SALESSUP.RXN1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -106,8 +108,8 @@
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 0000243C
- --->>>element_offset: 0000243C
+ --->>>class_offset: 00002424
+ --->>>element_offset: 00002424
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -293,45 +295,6 @@
  ---nextSubCallTemp---entry
  stubbedCalls: 2, callTemp: -1
  ---nextSubCallTemp---exit: 0
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
- ---doCall---exit: 0
- ---DOSBCALL---exit: 0
- ---DOSBCALL---entry
- parmlist: X'3861D188'
- ---doCall---entry
- parmlist: X'3861D188'
- ---nextSubCallTemp---entry
- stubbedCalls: 2, callTemp: 0
- ---nextSubCallTemp---exit: 1
  ---storeAVsInLive---entry
  Live size: 4, AVsIn size: 4
  ---setData---entry
