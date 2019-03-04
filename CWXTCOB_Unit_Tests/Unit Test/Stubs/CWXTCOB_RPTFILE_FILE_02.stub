@@ -138,7 +138,7 @@
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWXTCOB_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D4C9C3C8C1C5D340C4C1E8E3D6D54040E2D6E4E3C8404040E2404040F0F861F3F061F8F2404040F3F640404040F8F2F54BF0F04040404040F04BF0F0404040F6F0F0F04BF0F04040F6F8F2F54BF0F0</properties:property>
+          <properties:property name="value" type="string">40D4C9C3C8C1C5D340C4C5E8E3D6D54040E2D6E4E3C8404040E2404040F0F861F3F061F8F2404040F3F640404040F8F2F54BF0F04040404040F04BF0F0404040F6F0F0F04BF0F04040F6F8F2F54BF0F0</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
