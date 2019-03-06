@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-02-25 11:42.30��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-05 05:41.04��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB_
  STTR014I Processing test scenario CWXTCOB_
@@ -41,8 +41,8 @@
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   IDRU: Creation Date = 2019056, Length = 40
-   data = c3e7c3e6e7e3c3d6c24009394bdb7a1802e85be019deaf0c5dec030b190000000000000000000000
-   program = CWXTCOB , ddio(27) = SALESSUP.RXN1.DEV1.LOAD.SSD
+   data = c3e7c3e6e7e3c3d6c24009394bdb7a1802e85be06a8401ef06e079bc000000000000000000000000
+   program = CWXTCOB , ddio(26) = SALESSUP.RXN1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -106,8 +106,8 @@
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 0000243C
- --->>>element_offset: 0000243C
+ --->>>class_offset: 00002424
+ --->>>element_offset: 00002424
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -119,7 +119,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 38958028
+ ---SUBPGM---exit  newSubPgm: 38962028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -1402,8 +1402,8 @@
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   getD: rc, count = 76, rs = <0X83000800>.
- --->>>class_offset: 00002440
- --->>>element_offset: 00002440
+ --->>>class_offset: 00002428
+ --->>>element_offset: 00002428
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -1415,7 +1415,7 @@
  token: 00000000, 0
  assertYN: N
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 3890A028
+ ---SUBPGM---exit  newSubPgm: 38910028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.2.v20190211-1724_163?>
-<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 28, 2019 1:57:01 AM-->
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 05.03.2019 19:37:48-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1" tests="2">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1" name="00001: Check for PARM_LTH"/>
@@ -137,9 +137,15 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00012: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00012: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" tests="129">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" tests="129">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00001: Check for FILLER0"/>
-    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
+    <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME">
+      <failure>Check for EMP_DTL_NAME failed
+
+Actual Value:    MICHAEL DAYTON
+
+Expected Value:  = MICHAEL DEYTON</failure>
+    </testcase>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00003: Check for FILLER1"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00004: Check for EMP_DTL_REGION"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00005: Check for FILLER2"/>
@@ -161,7 +167,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00013: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" tests="151">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" tests="151">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -185,7 +191,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00014: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" tests="173">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" tests="173">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -209,7 +215,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00015: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" tests="195">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" tests="195">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -233,7 +239,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00016: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" tests="217">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" tests="217">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -257,7 +263,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00017: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" tests="239">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" tests="239">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -281,7 +287,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00018: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" tests="261">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" tests="261">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -305,7 +311,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00019: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" tests="283">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" tests="283">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -329,7 +335,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00020: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" tests="305">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" tests="305">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -353,7 +359,7 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00021: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" tests="327">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" tests="327">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -377,10 +383,10 @@
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00022: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00023: RPTFILE assertion" tests="328">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00023: RPTFILE assertion" tests="328">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00023: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00024: RPTFILE assertion" tests="332">
+  <testsuite errors="0" failures="1" name="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00024: RPTFILE assertion" tests="332">
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00024: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00024: RPTFILE assertion" name="00002: Check for FILLER1"/>
     <testcase classname="CWXTCOB_Unit_Tests.CWXTCOB_Scenario_Good.00001: CWXTCOBCase1.CWXTCOB_RPTFILE_FILE_02.00024: RPTFILE assertion" name="00003: Check for FILLER2"/>
