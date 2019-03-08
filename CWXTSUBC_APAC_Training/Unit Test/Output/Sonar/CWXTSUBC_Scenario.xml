@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 06.03.2019 10:48:36-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00001: CWXTSUBCCase1.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00002: CWXTSUBCCase2.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00003: CWXTSUBCCase3.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00004: CWXTSUBCCase4.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00004: CWXTSUBCCase4.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00004: CWXTSUBCCase4.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00005: CWXTSUBCCase5.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00005: CWXTSUBCCase5.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00005: CWXTSUBCCase5.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00006: CWXTSUBCCase6.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00006: CWXTSUBCCase6.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00006: CWXTSUBCCase6.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Workbench\workspace\CWXTSUBC_APAC_Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00007: CWXTSUBCCase7.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00007: CWXTSUBCCase7.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="CWXTSUBC_APAC_Training.CWXTSUBC_Scenario.00007: CWXTSUBCCase7.00003: Check for COMM_TOTAL"/>
+  </file>
+</testExecutions>
